@@ -27,8 +27,8 @@ for section in main_sections:
             if f.endswith(".ipynb"):
                 full_path = os.path.join(dirpath, f)
                 rel_path = os.path.relpath(full_path, ".").replace("\\", "/")
-                entry["children"].append({"file": rel_path})
-
+                entry["children"].append({"file": rel_path,
+                                         "hidden": True,})
     toc.append(entry)
 
 tag_gallery_dir = "galleries_by_tag"

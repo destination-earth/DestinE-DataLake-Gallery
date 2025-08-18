@@ -22,14 +22,11 @@
 {button}`Olci <./tag-olci.md>`
 {button}`Pyaviso <./tag-pyaviso.md>`
 {button}`Satpy <./tag-satpy.md>`
-{button}`Sentinel 1 <./tag-sentinel-1.md>`
-{button}`Sentinel 2 <./tag-sentinel-2.md>`
 {button}`Sentinel 3 <./tag-sentinel-3.md>`
 {button}`Seviri <./tag-seviri.md>`
 {button}`Stac <./tag-stac.md>`
 {button}`Stack <./tag-stack.md>`
 {button}`Storage <./tag-storage.md>`
-{button}`Thresholding Techniques <./tag-thresholding-techniques.md>`
 {button}`Token <./tag-token.md>`
 {button}`Workflow <./tag-workflow.md>`
 

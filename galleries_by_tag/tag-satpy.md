@@ -22,14 +22,11 @@
 {button}`Olci <./tag-olci.md>`
 {button}`Pyaviso <./tag-pyaviso.md>`
 {button}`Satpy <./tag-satpy.md>`
-{button}`Sentinel 1 <./tag-sentinel-1.md>`
-{button}`Sentinel 2 <./tag-sentinel-2.md>`
 {button}`Sentinel 3 <./tag-sentinel-3.md>`
 {button}`Seviri <./tag-seviri.md>`
 {button}`Stac <./tag-stac.md>`
 {button}`Stack <./tag-stack.md>`
 {button}`Storage <./tag-storage.md>`
-{button}`Thresholding Techniques <./tag-thresholding-techniques.md>`
 {button}`Token <./tag-token.md>`
 {button}`Workflow <./tag-workflow.md>`
 
@@ -58,19 +55,6 @@
       <span class="tag">HDA</span><span class="tag">Metop</span><span class="tag">AVHRR</span><span class="tag">satpy</span>
     </div>
     <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA STAC Sentinel-2 satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>How to use HDA to find and download data for conducting monitoring of Śniadrwy lake</strong><br>
-    This notebook demonstrates a simple example of how you can access data from DEDL using HDA and what you can do with it using an example with Sentinel-1 data.
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Sentinel-2</span><span class="tag">satpy</span>
-    </div>
-    <a href="../production/HDA/Fresh_Data_Pool/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

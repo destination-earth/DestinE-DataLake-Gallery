@@ -29,14 +29,11 @@ Use the tag filters to quickly find notebooks relevant to your interests or work
 {button}`Olci <galleries_by_tag/tag-olci.md>`
 {button}`Pyaviso <galleries_by_tag/tag-pyaviso.md>`
 {button}`Satpy <galleries_by_tag/tag-satpy.md>`
-{button}`Sentinel 1 <galleries_by_tag/tag-sentinel-1.md>`
-{button}`Sentinel 2 <galleries_by_tag/tag-sentinel-2.md>`
 {button}`Sentinel 3 <galleries_by_tag/tag-sentinel-3.md>`
 {button}`Seviri <galleries_by_tag/tag-seviri.md>`
 {button}`Stac <galleries_by_tag/tag-stac.md>`
 {button}`Stack <galleries_by_tag/tag-stack.md>`
 {button}`Storage <galleries_by_tag/tag-storage.md>`
-{button}`Thresholding Techniques <galleries_by_tag/tag-thresholding-techniques.md>`
 {button}`Token <galleries_by_tag/tag-token.md>`
 {button}`Workflow <galleries_by_tag/tag-workflow.md>`
 

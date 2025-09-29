@@ -81,12 +81,14 @@ footer.footer {
 
 .footer a,
 .footer a:visited,
-.footer a:hover,
 .footer a:active {
   color: #DFEDFF !important;
   text-decoration: none;
 }
 
+.footer a:hover {
+  text-decoration: underline;
+}
 
 .tag {
   display: inline-block;

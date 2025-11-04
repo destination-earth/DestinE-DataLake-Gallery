@@ -9,34 +9,35 @@ Use the tag filters to quickly find notebooks relevant to your interests or work
 ### Filter Notebooks by Tags
 
 
-{button}`Access Token <galleries_by_tag/tag-Access-Token.md>`
-{button}`Authentication <galleries_by_tag/tag-Authentication.md>`
-{button}`AVHRR <galleries_by_tag/tag-AVHRR.md>`
-{button}`C3S <galleries_by_tag/tag-C3S.md>`
-{button}`Cluster <galleries_by_tag/tag-Cluster.md>`
-{button}`Core API <galleries_by_tag/tag-Core-API.md>`
-{button}`Dask <galleries_by_tag/tag-Dask.md>`
-{button}`DataCube <galleries_by_tag/tag-DataCube.md>`
-{button}`Digital Twin <galleries_by_tag/tag-Digital-Twin.md>`
-{button}`Digital twin <galleries_by_tag/tag-Digital-twin.md>`
+
+{button}`Access Token <galleries_by_tag/tag-access-token.md>`
+{button}`Authentication <galleries_by_tag/tag-authentication.md>`
+{button}`AVHRR <galleries_by_tag/tag-avhrr.md>`
+{button}`C3S <galleries_by_tag/tag-c3s.md>`
+{button}`Cluster <galleries_by_tag/tag-cluster.md>`
+{button}`Core API <galleries_by_tag/tag-core-api.md>`
+{button}`Dask <galleries_by_tag/tag-dask.md>`
+{button}`DataCube <galleries_by_tag/tag-datacube.md>`
+{button}`Digital Twin <galleries_by_tag/tag-digital-twin.md>`
+{button}`Digital twin <galleries_by_tag/tag-digital-twin.md>`
 {button}`earthkit <galleries_by_tag/tag-earthkit.md>`
-{button}`ECMWF <galleries_by_tag/tag-ECMWF.md>`
-{button}`EODAG <galleries_by_tag/tag-EODAG.md>`
-{button}`GFM <galleries_by_tag/tag-GFM.md>`
-{button}`HDA <galleries_by_tag/tag-HDA.md>`
-{button}`Hook <galleries_by_tag/tag-Hook.md>`
-{button}`HTTP requests <galleries_by_tag/tag-HTTP-requests.md>`
-{button}`Metop <galleries_by_tag/tag-Metop.md>`
-{button}`OLCI <galleries_by_tag/tag-OLCI.md>`
+{button}`ECMWF <galleries_by_tag/tag-ecmwf.md>`
+{button}`EODAG <galleries_by_tag/tag-eodag.md>`
+{button}`GFM <galleries_by_tag/tag-gfm.md>`
+{button}`HDA <galleries_by_tag/tag-hda.md>`
+{button}`Hook <galleries_by_tag/tag-hook.md>`
+{button}`HTTP requests <galleries_by_tag/tag-http-requests.md>`
+{button}`Metop <galleries_by_tag/tag-metop.md>`
+{button}`OLCI <galleries_by_tag/tag-olci.md>`
 {button}`pyaviso <galleries_by_tag/tag-pyaviso.md>`
 {button}`satpy <galleries_by_tag/tag-satpy.md>`
-{button}`Sentinel-3 <galleries_by_tag/tag-Sentinel-3.md>`
-{button}`SEVIRI <galleries_by_tag/tag-SEVIRI.md>`
-{button}`STAC <galleries_by_tag/tag-STAC.md>`
-{button}`STACK <galleries_by_tag/tag-STACK.md>`
-{button}`Storage <galleries_by_tag/tag-Storage.md>`
-{button}`Token <galleries_by_tag/tag-Token.md>`
-{button}`Workflow <galleries_by_tag/tag-Workflow.md>`
+{button}`Sentinel-3 <galleries_by_tag/tag-sentinel-3.md>`
+{button}`SEVIRI <galleries_by_tag/tag-seviri.md>`
+{button}`STAC <galleries_by_tag/tag-stac.md>`
+{button}`STACK <galleries_by_tag/tag-stack.md>`
+{button}`Storage <galleries_by_tag/tag-storage.md>`
+{button}`Token <galleries_by_tag/tag-token.md>`
+{button}`Workflow <galleries_by_tag/tag-workflow.md>`
 
 ---
 

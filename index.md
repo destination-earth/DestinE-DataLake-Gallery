@@ -19,7 +19,7 @@ Use the tag filters to quickly find notebooks relevant to your interests or work
 {button}`DataCube <galleries_by_tag/tag-DataCube.md>`
 {button}`Digital Twin <galleries_by_tag/tag-Digital-Twin.md>`
 {button}`Digital twin <galleries_by_tag/tag-Digital-twin.md>`
-{button}`Earthkit <galleries_by_tag/tag-Earthkit.md>`
+{button}`earthkit <galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF <galleries_by_tag/tag-ECMWF.md>`
 {button}`EODAG <galleries_by_tag/tag-EODAG.md>`
 {button}`GFM <galleries_by_tag/tag-GFM.md>`

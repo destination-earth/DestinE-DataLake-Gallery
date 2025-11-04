@@ -1,43 +1,64 @@
 import os
+import nbformat
+import yaml
 
-tag_gallery_dir = "galleries_by_tag"
-gallery_dirs = ["galleries", "galleries_by_tag"]  
-start_marker = "### Filter Notebooks by Tags"
-button_prefix = "{button}`"
-button_suffix = "`"
+PRODUCTION_ROOT = "production"
+START_MARKER = "### Filter Notebooks by Tags"
+BUTTON_PREFIX = "{button}`"
+BUTTON_SUFFIX = "`"
 
-if not os.path.isdir(tag_gallery_dir):
-    print(f"Directory not found: {tag_gallery_dir}. No changes made.")
-    raise SystemExit(0)
+def extract_yaml_from_notebook(notebook_path):
+    with open(notebook_path, "r", encoding="utf-8") as f:
+        nb = nbformat.read(f, as_version=4)
+    for cell in nb.cells:
+        if cell.cell_type == "markdown":
+            content = cell.source.strip()
+            if content.startswith("---") and content.count("---") >= 2:
+                parts = content.split("---")
+                yaml_block = parts[1]
+                try:
+                    return yaml.safe_load(yaml_block)
+                except yaml.YAMLError as e:
+                    print(f"YAML parsing error in {notebook_path}: {e}")
+                    return None
+            break
+    return None
 
-tag_files = sorted(
-    f for f in os.listdir(tag_gallery_dir)
-    if f.startswith("tag-") and f.endswith(".md")
-)
 
-def make_buttons_block(base_dir: str):
-    
-    rel_to_tags = os.path.relpath(tag_gallery_dir, start=base_dir or ".")
+def collect_unique_tags():
+    unique_tags = set()
+    for dirpath, _, filenames in os.walk(PRODUCTION_ROOT):
+        for filename in filenames:
+            if filename.endswith(".ipynb"):
+                full_path = os.path.join(dirpath, filename)
+                meta = extract_yaml_from_notebook(full_path)
+                if meta and "tags" in meta:
+                    for tag in meta["tags"]:
+                        if isinstance(tag, str):
+                            unique_tags.add(tag.strip())
+   
+    return sorted(unique_tags, key=lambda s: s.lower())
+
+
+def make_buttons_block(tags):
     return [
-        f"{button_prefix}"
-        f"{fname.replace('tag-', '').replace('.md', '').replace('-', ' ').title()} "
-        f"<{os.path.join(rel_to_tags, fname).replace(os.sep, '/')}>"
-        f"{button_suffix}\n"
-        for fname in tag_files
+        f"{BUTTON_PREFIX}{tag} <galleries_by_tag/tag-{tag.replace(' ', '-').replace('/', '-')}.md>{BUTTON_SUFFIX}\n"
+        for tag in tags
     ]
 
-def update_file(file_path):
-    """Fügt die Buttons nach dem Marker ein, ersetzt bestehende Buttons."""
+
+def update_file(file_path, buttons):
     if not os.path.isfile(file_path):
+        print(f"{file_path} not found, skipping.")
         return
 
     with open(file_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     try:
-        marker_idx = next(i for i, ln in enumerate(lines) if ln.strip() == start_marker)
+        marker_idx = next(i for i, ln in enumerate(lines) if ln.strip() == START_MARKER)
     except StopIteration:
-        print(f"Marker '{start_marker}' not found in {file_path}, skipping.")
+        print(f"Marker '{START_MARKER}' not found in {file_path}, skipping.")
         return
 
     start_idx = marker_idx + 1
@@ -47,18 +68,15 @@ def update_file(file_path):
     end_idx = start_idx
     while end_idx < len(lines):
         s = lines[end_idx].strip()
-        if not s:  
+        if not s:
             end_idx += 1
             continue
-        if s.startswith(button_prefix) and s.endswith(button_suffix):
+        if s.startswith(BUTTON_PREFIX) and s.endswith(BUTTON_SUFFIX):
             end_idx += 1
             continue
         break
 
-    base_dir = os.path.dirname(file_path) or "."
-    new_buttons_block = make_buttons_block(base_dir)
-
-    replacement = ["\n"] + new_buttons_block + ["\n"]
+    replacement = ["\n"] + buttons + ["\n"]
     new_lines = lines[:start_idx] + replacement + lines[end_idx:]
 
     with open(file_path, "w", encoding="utf-8") as f:
@@ -66,11 +84,9 @@ def update_file(file_path):
 
     print(f"Updated buttons in {file_path}")
 
-update_file("index.md")
 
-for gallery_dir in gallery_dirs:
-    if not os.path.isdir(gallery_dir):
-        continue
-    for md_file in os.listdir(gallery_dir):
-        if md_file.endswith(".md"):
-            update_file(os.path.join(gallery_dir, md_file))
+if __name__ == "__main__":
+    tags = collect_unique_tags()
+
+    buttons_block = make_buttons_block(tags)
+    update_file("index.md", buttons_block)

@@ -10,8 +10,8 @@
 {button}`Core API <./tag-core-api.md>`
 {button}`Dask <./tag-dask.md>`
 {button}`DataCube <./tag-datacube.md>`
-{button}`Digital Twin <./tag-digital-twin.md>`
 {button}`Digital twin <./tag-digital-twin.md>`
+{button}`Digital Twin <./tag-digital-twin.md>`
 {button}`earthkit <./tag-earthkit.md>`
 {button}`ECMWF <./tag-ecmwf.md>`
 {button}`EODAG <./tag-eodag.md>`

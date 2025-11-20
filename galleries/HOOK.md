@@ -9,7 +9,6 @@
 {button}`Cluster <../galleries_by_tag/tag-cluster.md>`
 {button}`Core API <../galleries_by_tag/tag-core-api.md>`
 {button}`Dask <../galleries_by_tag/tag-dask.md>`
-{button}`DataCube <../galleries_by_tag/tag-datacube.md>`
 {button}`Digital Twin <../galleries_by_tag/tag-digital-twin.md>`
 {button}`earthkit <../galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF <../galleries_by_tag/tag-ecmwf.md>`

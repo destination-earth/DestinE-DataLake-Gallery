@@ -64,10 +64,6 @@ project:
     children:
     - file: production/STACK/DEDL_StackService_Dask.ipynb
       hidden: true
-    - file: production/STACK/ExtremeDT-DataCube-xViewer.ipynb
-      hidden: true
-    - file: production/STACK/ExtremeDT-DataCube.ipynb
-      hidden: true
     - file: production/STACK/STACK-Dask-101.ipynb
       hidden: true
     - file: production/STACK/STACK-Python-Client-Dask.ipynb
@@ -85,8 +81,6 @@ project:
   - file: galleries_by_tag/tag-core-api.md
     hidden: true
   - file: galleries_by_tag/tag-dask.md
-    hidden: true
-  - file: galleries_by_tag/tag-datacube.md
     hidden: true
   - file: galleries_by_tag/tag-digital-twin.md
     hidden: true

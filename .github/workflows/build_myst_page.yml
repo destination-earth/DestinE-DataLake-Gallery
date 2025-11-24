@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+       - cron: '0 */2 * * *'  
 
 permissions:
   contents: write
@@ -20,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout this repository
+      - name: Checkout Gallery Repo
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -38,8 +40,17 @@ jobs:
           pip install pyyaml nbformat
           npm install -g mystmd
 
-      - name: Clone external notebook repository
+      - name: Sync notebooks from Lab + external cookbooks
         run: python scripts/clone_sync_repos.py
+
+      - name: Commit copied images
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add img/
+          git commit -m "Update gallery images" || echo "No new images"
+          git push origin main
+
 
       - name: Generate gallery markdown files
         run: python scripts/generate_gallery_md.py
@@ -47,33 +58,36 @@ jobs:
       - name: Generate keywords markdown files
         run: python scripts/gallery_keywords.py
 
+      - name: Commit galleries
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add galleries/ galleries_by_tag/
+          git commit -m "gallery" || echo "No new galleries"
+          git push origin main
+
       - name: Generate Buttons in index file
         run: python scripts/indexbutton.py
 
       - name: Generate myst.yml and TOC
         run: python scripts/build_myst_yml.py
 
+      - name: Commit myst.yml
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add myst.yml
+          git commit -m "myst.yml" || echo "No new myst.yml"
+          git push origin main
+
       - name: Build MyST HTML site
         run: myst build --html
-
-      - name: Prepare full_site folder
-        run: |
-          mkdir -p full_site
-          cp -r _build/html/* full_site/
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: full_site
+          path: _build/html
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         id: deployment
-
-      - name: Commit and push updated files
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add production/ galleries/ galleries_by_tag/ img/ myst.yml index.md
-          git commit -m "🔄 Auto-update from GitHub Action" || echo "Nothing to commit"
-          git push origin main

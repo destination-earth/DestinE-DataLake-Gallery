@@ -3,6 +3,7 @@ import shutil
 import subprocess
 import tempfile
 import json
+import urllib.request
 
 BASE_REPO = "https://github.com/destination-earth/DestinE-DataLake-Lab.git"
 BASE_REPO_BRANCH = "main"         
@@ -10,8 +11,8 @@ BASE_CLONE_DIR = "cookbook-gallery"
 PRODUCTION_DIR = "production"
 CENTRAL_IMG = "img"
 BASE_SUBFOLDERS = ["HDA", "HOOK", "STACK"]
+REGISTRY_URL = "https://raw.githubusercontent.com/destination-earth/DestinE-DataLake-Lab/refs/heads/main/cookbooks.json"
 REGISTRY = "cookbooks.json"
-
 def run(cmd):
     print("➜", " ".join(cmd))
     subprocess.run(cmd, check=True)
@@ -48,12 +49,28 @@ def find_subfolder(repo_root, sub):
             return c
     return None
 
-def sync_base_sections():
-    print(f"Cloning base repo: {BASE_REPO} (branch: {BASE_REPO_BRANCH})")
-    clean_dir(BASE_CLONE_DIR)
+def download_registry():
+    print(f"Downloading cookbook.json from:\n   {REGISTRY_URL}")
+    try:
+        urllib.request.urlretrieve(REGISTRY_URL, REGISTRY)
+        print("cookbook.json downloaded")
+    except Exception as e:
+        print(f"Could not download cookbook.json: {e}")
+        print("No external cookbooks will be synced.")
+        return False
+    return True
 
-    run(["git", "clone", "--depth", "1", "--single-branch",
-         "--branch", BASE_REPO_BRANCH, BASE_REPO, BASE_CLONE_DIR])
+def sync_base_sections():
+    print(f"Cloning Lab repo: {BASE_REPO} (branch: {BASE_REPO_BRANCH})")
+    clean_dir(BASE_CLONE_DIR)
+    run([
+        "git", "clone",
+        "--depth", "1",
+        "--single-branch",
+        "--branch", BASE_REPO_BRANCH,
+        BASE_REPO,
+        BASE_CLONE_DIR
+    ])
 
     os.makedirs(PRODUCTION_DIR, exist_ok=True)
 
@@ -61,30 +78,34 @@ def sync_base_sections():
         src = find_subfolder(BASE_CLONE_DIR, sub)
         dst = os.path.join(PRODUCTION_DIR, sub)
         if src:
-            print(f"↻ Updating {dst} from {src}")
+            print(f"Updating internal section: {dst}")
             copytree_replace(src, dst)
         else:
-            print(f"Skipping {sub}: neither 'production/{sub}' nor '{sub}' found in branch '{BASE_REPO_BRANCH}'")
+            print(f"Skipping {sub}: folder not found in Lab repo branch {BASE_REPO_BRANCH}")
 
     copy_images_into_central(BASE_CLONE_DIR)
 
-    print("Cleaning temp base clone")
+    print("Cleaning Lab clone folder")
     clean_dir(BASE_CLONE_DIR)
 
 def sync_external_cookbooks():
+
+    if not download_registry():
+        return  
+
     if not os.path.exists(REGISTRY):
-        print(f"No {REGISTRY} found – skipping external cookbooks.")
+        print("No cookbook.json found — skipping external syncing.")
         return
 
     try:
         with open(REGISTRY, "r", encoding="utf-8") as f:
             items = json.load(f)
-    except Exception:
-        print(f"Could not parse {REGISTRY}, skipping.")
+    except Exception as e:
+        print(f"Could not parse cookbook.json: {e}")
         return
 
     if not isinstance(items, list) or not items:
-        print(f"{REGISTRY} empty nothing to sync.")
+        print("cookbook.json is empty — no external cookbooks to sync.")
         return
 
     os.makedirs(PRODUCTION_DIR, exist_ok=True)
@@ -93,12 +114,13 @@ def sync_external_cookbooks():
         for it in items:
             repo_url = (it.get("repo_url") or "").strip()
             root = (it.get("root_path") or "").strip()
-            branch = (it.get("branch") or "").strip()  
+            branch = (it.get("branch") or "").strip()
+
             if not repo_url or not root:
-                print(f"Bad registry entry (missing repo_url/root_path): {it}")
+                print(f"invalid entry in cookbook.json: {it}")
                 continue
 
-            print(f"Sync external: {root} from {repo_url} (branch: {branch or 'default'})")
+            print(f"Sync external cookbook: {root} from {repo_url} (branch: {branch or 'default'})")
             repo_tmp = os.path.join(tmp, root)
 
             clone_cmd = ["git", "clone", "--depth", "1"]
@@ -108,21 +130,22 @@ def sync_external_cookbooks():
             run(clone_cmd)
 
             src_path = os.path.join(repo_tmp, root) if root not in (".", "/") else repo_tmp
-            target = os.path.join(PRODUCTION_DIR, os.path.basename(root.rstrip("/")))
+
+            target = os.path.join(PRODUCTION_DIR, root)
+
             if os.path.exists(src_path):
                 copytree_replace(src_path, target)
             else:
-            
                 copytree_replace(repo_tmp, target)
 
             copy_images_into_central(repo_tmp)
 
-    print("External cookbooks synced.")
+    print("All external cookbooks synced.")
 
 def main():
     sync_base_sections()
     sync_external_cookbooks()
-    print("All sources synced into production/ and img/.")
+
 
 if __name__ == "__main__":
     main()

@@ -47,7 +47,7 @@ If you’ve developed a Jupyter notebook that works with the **DestinE Data Lake
 
 4. **Submit your repository**
 
-   * Open the [Gallery submission issue form](https://github.com/destination-earth/DestinE-DataLake-Gallery/issues/new?template=cookbook_submission.md).
+   * Open the [Gallery submission issue form](https://github.com/destination-earth/DestinE-DataLake-Lab/issues/new/choose). And choose issue named:Ad new cookbook.
    * Provide:
 
      * Title (e.g. action)

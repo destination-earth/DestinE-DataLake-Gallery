@@ -5,7 +5,7 @@ import tempfile
 import json
 
 BASE_REPO = "https://github.com/destination-earth/DestinE-DataLake-Lab.git"
-BASE_REPO_BRANCH = "staging"         
+BASE_REPO_BRANCH = "main"         
 BASE_CLONE_DIR = "cookbook-gallery"
 PRODUCTION_DIR = "production"
 CENTRAL_IMG = "img"
@@ -39,10 +39,6 @@ def copy_images_into_central(repo_dir):
         print(f"Copied images from {src_img} → {CENTRAL_IMG}")
 
 def find_subfolder(repo_root, sub):
-    """
-    Suche zuerst unter <repo_root>/production/<sub>,
-    sonst unter <repo_root>/<sub>. Gib existierenden Pfad zurück oder None.
-    """
     candidates = [
         os.path.join(repo_root, "production", sub),
         os.path.join(repo_root, sub),

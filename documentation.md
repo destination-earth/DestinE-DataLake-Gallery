@@ -2,34 +2,21 @@
 
 The DEDL Gallery Website provides a structured overview of all available notebooks in Destination Earth-DataLake grouped into three core services: HOOK, STACK, and HDA. This document explains how the site is set up, how it works, and how to modify or extend its configuration.
 
-Below is a breakdown of each major directory in
-[https://github.com/destination-earth/DestinE-DataLake-Gallery.git](https://github.com/destination-earth/DestinE-DataLake-Gallery.git)
-and its purpose, followed by a step-by-step tutorial on how to contribute.
+Below is a breakdown of each major directory in [DestinE-DataLake-Gallery](https://github.com/destination-earth/DestinE-DataLake-Gallery.git) and of the [DestinE-DataLake-Lab Repository](https://github.com/destination-earth/DestinE-DataLake-Lab) and its purpose, followed by a step-by-step tutorial on how to contribute.
 
 # Files and Folder Structure (Gallery Repository)
 
 ## 1. `_static/`
 
-Contains `custom.css`, which defines the visual appearance of the gallery:
+The `custom.css` file defines the visual appearance of the site, including colors, font styles, spacing, and header size.
 
-* colors
-* fonts
-* spacing
-* layout styles
-
-You can freely edit this file. Changes are included automatically in the next gallery build.
+To make design changes (e.g., colors, fonts), you can directly edit custom.css. These changes will be automatically applied with every push, without additional steps required.
 
 ## 2. `img/`
 
-Contains all images used by the gallery and notebooks.
+This folder contains all images used by the notebooks or the website itself. When adding a new notebook, you can include a thumbnail image and reference it in the first Markdown cell. You do not need to include your images in here, this will be handled automatically when you add you images to the img/ folder in de DestinE-Datalake-Lab repo. 
 
-Important:
-
-* **Do not** upload notebook thumbnails directly to the gallery repo.
-* Internal notebook images belong in the **LAB repository’s** `img/` folder.
-* External notebook images belong in the **external repository’s** `img/` folder.
-
-All images are automatically copied into this folder when the gallery is built.
+For further information please have a look at the the Contributing section below!
 
 ## 3. `scripts/`
 
@@ -37,7 +24,7 @@ These Python scripts automate the entire gallery generation pipeline.
 
 ### `clone_sync_repos.py`
 
-Clones the LAB repository (`main`) and copies:
+Clones the current version of the repository https://github.com/destination-earth/DestinE-DataLake-Lab.git (branch: main) and copies:
 
 * `HDA/`, `HOOK/`, `STACK/` → into `production/`
 * All images from LAB → into `img/`
@@ -53,26 +40,24 @@ Thus, **all internal and external notebooks are synchronized** during each build
 
 ### `generate_gallery_md.py`
 
-Generates gallery pages (one per subfolder in `production/`).
+Generates a gallery page for each subfolder within `production/`.
+It extracts metadata (title, description, tags) from the first Markdown cell of each notebook and creates a gallery card using HTML <div> blocks.
 
-It extracts notebook metadata (title, subtitle, tags, thumbnail) from the first markdown cell and renders an HTML-based notebook card.
+Generated gallery pages are stored in the `galleries/` folder.
 
-Output goes into `galleries/`.
+**Note:** To adjust the card design, edit the corresponding HTML layout directly in this script.
 
 ### `generate_keywords.py`
 
-Scans all notebooks for tags and creates tag-based gallery pages.
-
-Output goes into `galleries_by_tag/`.
+Creates tag‑specific gallery pages by scanning the first Markdown cell of each notebook, extracting the tags, and generating one gallery per tag.
+The resulting pages are stored in the galleries_by_tag/ folder.
 
 ### `indexbutton.py`
 
-Updates `index.md` and all gallery pages with the global list of tag filter buttons.
-It replaces the content below the marker:
+Automatically updates index.md and all gallery markdown files by inserting or replacing a section of tag filter buttons.
+It scans the galleries_by_tag/ folder and generates corresponding {button} links.
 
-```
-### Filter Notebooks by Tags
-```
+The script locates the marker ### Filter Notebooks by Tags in each file and replaces the section below it with the updated tag buttons — keeping all gallery pages synchronized with new tags automatically.
 
 ### `build_myst_yml.py`
 
@@ -85,25 +70,28 @@ This file defines:
 * index, contribute, footer pages
 * all notebook pages in `production/`
 
-Because the script regenerates `myst.yml`, **manual edits should not be made**.
+**Note:** Any structural changes to the site (navigation, theme, or appearance) must be made in this script — not directly in myst.yml, since that file is dynamically generated here
 
 ## Additional Files (Gallery)
 
 ### `myst.yml`
 
-The MyST website configuration, fully auto-generated.
+This file defines the structure and configuration of the MyST site.
+It is automatically generated and updated by the script build_myst_yml.py.
 
 ### `footer.md`
 
-Footer content displayed at the bottom of each page.
+Contains the footer content that appears on every page of the gallery.
+You can easily modify or extend it if you want to update contact details or design elements.
 
 ### `contribute.md`
 
-Short overview on contributing.
+Provides contribution guidelines similar to the “How to Contribute” section in this documentation.
+You can update it to reflect new submission rules or workflow instructions.
 
 # Gallery Workflow
 
-## `build_myst_page.yml`
+## `.github/workflow/build_myst_page.yml`
 
 **Gallery Build Workflow**
 
@@ -126,6 +114,9 @@ Steps:
 
 This workflow builds the [public production gallery](https://destination-earth.github.io/DestinE-DataLake-Gallery/)
 
+# Staging Gallery
+
+The [DestinE-staging-Gallery](https://github.com/destination-earth/DestinE-Staging-Gallery.git) is designed exactly the same way, however it clones the staging brnah of the LAB repository, not the main branch.
 ---
 
 # Files and Folder Structure (LAB Repository)
@@ -137,6 +128,7 @@ Used by external contributors to add new notebook repositories.
 
 The form collects:
 
+* Submission Title 
 * repository URL
 * short uppercase folder name
 
@@ -158,9 +150,9 @@ Steps:
 5. Update `cookbooks.json`
 6. Commit changes to **LAB/staging**
 
-External entries therefore always enter STAGING first.
+External entries therefore always enter STAGING first. You cna have a look at the Staging Gallery then. 
 
-Once STAGING is reviewed and merged into MAIN, the gallery rebuilds automatically.
+Once STAGING is reviewed and merged into MAIN, the gallery gets updated (every two hours).
 
 ## 3. `.github/workflows/pr_check.yml`
 
@@ -170,9 +162,8 @@ The workflow verifies:
 
 * metadata in first notebook cell
 * required fields (title, subtitle, thumbnail, tags, etc.)
-* validity of notebook structure
 
-Only PRs whose notebooks pass validation can be merged.
+Only PRs whose notebooks pass validation will be merged.
 
 ---
 
@@ -206,22 +197,20 @@ A validation workflow checks:
 
 * metadata format
 * required fields
-* thumbnail references
 
 ### Step 3: Preview in the staging gallery
 
 After a successful PR, the staging version of the gallery is built. 
-You can verify the layout, metadata, tags, and images.
+You can verify the layout, metadata, tags and images.
 
 ### Step 4: Promote to main
 
 Once approved, the PR from `staging` to `main` is created.
 Only maintainers may approve and merge this step.
 
-The main branch update triggers the public gallery rebuild.
+The public gallery is rebuild from the main branch every 2 hours.
 
-
-# Adding a new yection (external repository)
+# Adding a new section (external repository)
 
 If you want to add an entirely new notebook repository:
 

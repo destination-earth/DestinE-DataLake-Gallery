@@ -64,6 +64,8 @@ project:
     children:
     - file: production/STACK/DEDL_StackService_Dask.ipynb
       hidden: true
+    - file: production/STACK/ExtremeDT_DataCube.ipynb
+      hidden: true
     - file: production/STACK/STACK-Dask-101.ipynb
       hidden: true
     - file: production/STACK/STACK-Python-Client-Dask.ipynb

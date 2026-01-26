@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 env:
-  REPO_B: dest
-  BASE_URL: /dest
+  REPO_B: DestinE-DataLake-Staging-Gallery
+  BASE_URL: /DestinE-DataLake-Staging-Gallery
   GALLERY_URL: https://destination-earth.github.io/DestinE-DataLake-Staging-Gallery/
   BASE_REPO_BRANCH: staging
 

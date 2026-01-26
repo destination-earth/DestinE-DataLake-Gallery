@@ -40,14 +40,17 @@ def collect_unique_tags():
     return sorted(unique_tags, key=lambda s: s.lower())
 
 
-def make_buttons_block(tags, base_dir="."):
-    rel_to_tags = os.path.relpath(TAG_GALLERY_DIR, start=base_dir or ".")
+def make_buttons_block(tags):
     buttons = []
     for tag in tags:
-        tag_file = f"tag-{tag.lower().replace(' ', '-').replace('/', '-')}.md"
-        link_path = os.path.join(rel_to_tags, tag_file).replace(os.sep, "/")
+        safe_tag = tag.lower().replace(" ", "-").replace("/", "-")
+        tag_file = f"tag-{safe_tag}.md"
+
+        link_path = f"/{TAG_GALLERY_DIR}/{tag_file}"
+
         buttons.append(f"{BUTTON_PREFIX}{tag} <{link_path}>{BUTTON_SUFFIX}\n")
     return buttons
+
 
 
 def update_file(file_path, buttons):
@@ -91,7 +94,7 @@ def update_file(file_path, buttons):
 if __name__ == "__main__":
     tags = collect_unique_tags()
 
-    buttons_block = make_buttons_block(tags, base_dir=".")
+    buttons_block = make_buttons_block(tags)
     update_file("index.md", buttons_block)
 
     for gallery_dir in GALLERY_DIRS:
@@ -99,6 +102,5 @@ if __name__ == "__main__":
             continue
         for md_file in os.listdir(gallery_dir):
             if md_file.endswith(".md"):
-                base_dir = os.path.dirname(os.path.join(gallery_dir, md_file))
-                buttons_block = make_buttons_block(tags, base_dir)
+                buttons_block = make_buttons_block(tags)
                 update_file(os.path.join(gallery_dir, md_file), buttons_block)

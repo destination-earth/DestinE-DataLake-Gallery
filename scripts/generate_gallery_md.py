@@ -43,14 +43,26 @@ def generate_html_card(meta, notebook_path):
     tags = meta.get("tags", [])
     tags_html = ''.join(f'<span class="tag">{tag}</span>' for tag in tags)
 
-    href = notebook_path.replace("\\", "/")
-    if not href.startswith("../"):
-        href = f"../{href}"
+    # Root-relative notebook link (robust for GitHub Pages + baseurl)
+    href = "/" + notebook_path.replace("\\", "/").lstrip("./")
 
-    thumbnail = meta.get("thumbnail", "")
-    if "img/" in thumbnail:
-        thumbnail = thumbnail.split("img/", 1)[1].lstrip("/")
-        thumbnail = f"../img/{thumbnail}"
+    thumbnail = (meta.get("thumbnail") or "").strip()
+
+    # Normalize thumbnails:
+    # - if metadata contains "img/..." or "/img/..." -> turn into "/img/..."
+    # - if empty -> keep empty
+    if thumbnail:
+        thumb_norm = thumbnail.replace("\\", "/").lstrip("./")
+        if thumb_norm.startswith("/img/"):
+            thumbnail = thumb_norm
+        elif thumb_norm.startswith("img/"):
+            thumbnail = "/" + thumb_norm
+        elif "img/" in thumb_norm:
+            # e.g. "something/img/foo.png"
+            thumbnail = "/img/" + thumb_norm.split("img/", 1)[1].lstrip("/")
+        else:
+            # If someone gave a direct path, still make it root-relative
+            thumbnail = "/" + thumb_norm.lstrip("/")
 
     return f'''
 <div class="notebook-card" data-tags="{' '.join(tags)}" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -67,6 +79,7 @@ def generate_html_card(meta, notebook_path):
   </div>
 </div>
 '''.strip()
+
 
 
 def generate_gallery_for_section(section):

@@ -1,0 +1,44 @@
+name: Add new cookbook
+description: Request adding an external cookbook (staging preview first).
+title: "[ADD] "
+labels: ["add-repo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This will create a staging preview by updating `cookbooks.json` on `staging`.
+        After review, apply label `promote-to-main` to publish to `main`.
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/org/repo.git
+    validations:
+      required: true
+
+  - type: input
+    id: staging_branch
+    attributes:
+      label: Branch for STAGING preview
+      description: Which branch should staging preview use?
+      placeholder: staging
+    validations:
+      required: true
+
+  - type: input
+    id: main_branch
+    attributes:
+      label: Branch for MAIN (after promotion)
+      description: Which branch should be used on main after promotion?
+      placeholder: main
+    validations:
+      required: true
+
+  - type: input
+    id: root_path
+    attributes:
+      label: Cookbook Title in capital letters
+      placeholder: MYCOOKBOOK
+    validations:
+      required: true

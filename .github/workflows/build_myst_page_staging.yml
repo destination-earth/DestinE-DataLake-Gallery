@@ -1,0 +1,89 @@
+name: MyST Deploy Staging (to Repo B)
+
+on:
+  push:
+    branches: [staging]
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Preview External Cookbook (staging)"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+env:
+  REPO_B: dest
+  BASE_URL: /dest
+  GALLERY_URL: https://destination-earth.github.io/DestinE-DataLake-Staging-Gallery/
+  BASE_REPO_BRANCH: staging
+
+jobs:
+  build-and-push-to-repoB:
+    if: >
+      (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success') &&
+      (github.event_name != 'push' || !contains(github.event.head_commit.message, 'Update gallery'))
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo A (staging)
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18.x"
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml nbformat
+          npm install -g mystmd
+
+      - name: Sync notebooks from Lab + external cookbooks
+        run: python scripts/clone_sync_repos.py
+
+      - name: Generate gallery markdown files
+        run: python scripts/generate_gallery_md.py
+
+      - name: Generate keywords markdown files
+        run: python scripts/gallery_keywords.py
+
+      - name: Generate Buttons in index file
+        run: python scripts/indexbutton.py
+
+      - name: Generate myst.yml and TOC
+        run: python scripts/build_myst_yml.py
+
+      - name: Commit generated changes to staging (Repo A)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add img/ production/ galleries/ galleries_by_tag/ myst.yml
+          git commit -m "Update gallery" || echo "No changes to commit"
+          git push origin staging
+
+      - name: Build MyST HTML site
+        run: myst build --html
+
+      - name: Setup SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_PAGES_SSH_KEY }}
+
+      - name: Publish staging site to Repo B (gh-pages root)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.DEPLOY_PAGES_SSH_KEY }}
+          external_repository: https://destination-earth.github.io/DestinE-DataLake-Staging-Gallery/
+          publish_branch: gh-pages
+          publish_dir: _build/html
+          keep_files: false
+          commit_message: "Deploy staging from Repo A @ ${{ github.sha }}"
+

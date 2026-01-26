@@ -1,0 +1,47 @@
+name: Promote cookbooks.json to main
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+
+    if: >
+      contains(fromJson('["katharinastarzer21","koenifra","serenaateum","danaele","christophreimer"]'), github.actor) &&
+      github.event.label.name == 'promote-to-main'
+
+    steps:
+      - name: Checkout gallery repo (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Dump Issue body to file (safe multiline)
+        run: |
+          cat <<'EOF' > issue_body.txt
+          ${{ github.event.issue.body }}
+          EOF
+
+      - name: Export issue labels
+        run: echo "ISSUE_LABELS=${{ join(github.event.issue.labels.*.name, ',') }}" >> $GITHUB_ENV
+
+      - name: Set target branch (main)
+        run: echo "TARGET_BRANCH=main" >> $GITHUB_ENV
+
+      - name: Parse issue and update cookbooks.json (main)
+        run: python .github/scripts/parse_issue.py
+
+      - name: Commit and push to main
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add cookbooks.json
+          git commit -m "Promote external cookbook to main (issue #${{ github.event.issue.number }})" || exit 0
+          git push origin main

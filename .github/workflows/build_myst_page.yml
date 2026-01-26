@@ -4,8 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  schedule:
-       - cron: '0 */2 * * *'  
+  workflow_run:
+    workflows: ["Promote cookbooks.json to main"]
+    types: [completed]
 
 permissions:
   contents: write
@@ -15,15 +16,19 @@ permissions:
 env:
   BASE_URL: /${{ github.event.repository.name }}
   GALLERY_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+  BASE_REPO_BRANCH: main
 
 jobs:
   build-and-deploy:
-    if: github.actor != 'github-actions'
+    if: >
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Gallery Repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,28 +48,11 @@ jobs:
       - name: Sync notebooks from Lab + external cookbooks
         run: python scripts/clone_sync_repos.py
 
-      - name: Commit copied images
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add img/
-          git commit -m "Update gallery images" || echo "No new images"
-          git push origin main
-
-
       - name: Generate gallery markdown files
         run: python scripts/generate_gallery_md.py
 
       - name: Generate keywords markdown files
         run: python scripts/gallery_keywords.py
-
-      - name: Commit galleries
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add galleries/ galleries_by_tag/
-          git commit -m "gallery" || echo "No new galleries"
-          git push origin main
 
       - name: Generate Buttons in index file
         run: python scripts/indexbutton.py
@@ -72,12 +60,12 @@ jobs:
       - name: Generate myst.yml and TOC
         run: python scripts/build_myst_yml.py
 
-      - name: Commit myst.yml
+      - name: Commit all changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add myst.yml
-          git commit -m "myst.yml" || echo "No new myst.yml"
+          git add img/ production/ galleries/ galleries_by_tag/ myst.yml
+          git commit -m "Update gallery" || echo "No changes"
           git push origin main
 
       - name: Build MyST HTML site

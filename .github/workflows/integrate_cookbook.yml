@@ -1,0 +1,90 @@
+name: Preview External Cookbook (staging)
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  preview-to-staging:
+    runs-on: ubuntu-latest
+
+    if: >
+      contains(fromJson('["katharinastarzer21","koenifra","serenaateum","danaele","christophreimer"]'), github.actor) &&
+      (
+        contains(github.event.issue.labels.*.name, 'add-repo') ||
+        contains(github.event.issue.labels.*.name, 'remove-repo')
+      )
+
+    steps:
+      - name: Checkout gallery repo (staging)
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+          fetch-depth: 0
+
+      - name: Dump Issue body
+        run: |
+          cat <<'EOF' > issue_body.txt
+          ${{ github.event.issue.body }}
+          EOF
+
+      - name: Export issue labels
+        run: echo "ISSUE_LABELS=${{ join(github.event.issue.labels.*.name, ',') }}" >> $GITHUB_ENV
+
+      - name: Set target branch (staging)
+        run: echo "TARGET_BRANCH=staging" >> $GITHUB_ENV
+
+      - name: Parse issue and update cookbooks.json (staging)
+        run: python .github/scripts/parse_issue.py
+
+      - name: Validate notebooks in external repo (add only)
+        if: env.COOKBOOK_ACTION == 'add'
+        run: |
+          echo "Repo URL : $REPO_URL"
+          echo "Root Path: $ROOT_PATH"
+
+          if [ -z "$REPO_URL" ]; then
+            echo "ERROR: REPO_URL is empty!"
+            exit 1
+          fi
+
+          if [ -z "$ROOT_PATH" ]; then
+            echo "ERROR: ROOT_PATH is empty!"
+            exit 1
+          fi
+
+          echo "Cloning external repo: $REPO_URL"
+          git clone --depth 1 "$REPO_URL" external_repo
+
+          TARGET="external_repo/notebooks"
+          if [ ! -d "$TARGET" ]; then
+            echo "ERROR: expected notebooks folder at $TARGET"
+            exit 1
+          fi
+
+          echo "Validating notebooks in: $TARGET"
+          find "$TARGET" -name "*.ipynb" > notebooks.txt
+
+          if [ ! -s notebooks.txt ]; then
+            echo "ERROR: No .ipynb files found inside '$TARGET'"
+            exit 1
+          fi
+
+          while IFS= read -r nb; do
+            echo "Validating $nb ..."
+            python .github/scripts/validate_notebook.py "$nb"
+          done < notebooks.txt
+
+      - name: Commit and push updates to STAGING
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add cookbooks.json
+
+          git commit -m "Preview ${COOKBOOK_ACTION} external cookbook (issue #${{ github.event.issue.number }})" || exit 0
+          git push origin staging

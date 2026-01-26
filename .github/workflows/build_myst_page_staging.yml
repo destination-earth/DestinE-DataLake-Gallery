@@ -81,7 +81,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.DEPLOY_PAGES_SSH_KEY }}
-          external_repository: https://destination-earth.github.io/DestinE-DataLake-Staging-Gallery/
+          external_repository: destination-earth/DestinE-DataLake-Staging-Gallery
           publish_branch: gh-pages
           publish_dir: _build/html
           keep_files: false

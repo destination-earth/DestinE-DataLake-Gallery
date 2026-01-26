@@ -2,95 +2,6 @@
 
 If you’ve developed a Jupyter notebook that works with the **DestinE Data Lake** services and would like to share it with others, follow the steps below to add your repository to the Gallery:
 
-### Step-by-Step: Upload Your Repository
-
-1. **Use the template repository**
-
-   * Clone the official template repository to your own GitHub account:
-
-     ```bash
-     git clone https://github.com/destination-earth/DestinE-DataLake-NotebookTemplate.git
-     ```
-   * Or click the **"Use this template"** button on GitHub to create your own copy.
-
-2. **Add your content**
-
-   * Place your Jupyter Notebooks in the `notebooks/` folder.
-   * Follow the example in `notebooks/template.ipynb`, paying close attention to the **first Markdown cell**, which must contain a YAML front matter block:
-
-     ```markdown
-     ---
-     title: "Your Notebook Title"
-     subtitle: "Brief description of what this notebook does."
-     authors: ["Your Name"]
-     tags: ["Template"]
-     thumbnail: /img/example.png
-     license: MIT
-     copyright: "© 2024 EUMETSAT"
-     ---
-     ```
-   * Add a thumbnail image for each notebook, store it in the `img/` folder, and reference it in the notebook metadata.
-
-3. **Configure repository settings**
-
-   * **Enable GitHub Pages**
-
-     * Go to **Settings → Pages**.
-     * Under Build and deployment, set Source to GitHub Actions.
-
-   * **Enable Required GitHub Actions Permissions**
-
-     * Go to **Settings → Actions → General**.
-     * Scroll to **Workflow permissions**.
-     * Select **Read and write permissions**.
-     * Click **Save** if you made any changes.
-
-4. **Submit your repository**
-
-   * Open the [Gallery submission issue form](https://github.com/destination-earth/DestinE-DataLake-Lab/issues/new/choose). And choose issue named:Ad new cookbook.
-   * Provide:
-
-     * Title (e.g. action)
-     * Repository URL
-     * Short title in **UPPERCASE** (for folder naming)
-
-5. **Review process**
-
-   * The DestinE team will review your submission.
-   * If accepted, it will be integrated into the official gallery and published automatically.
-
-### Best Practices
-
-* Use clear titles and logical section headings.
-* Tag your notebooks meaningfully. Whenever possible, review the tags already used in the gallery and reuse them to maintain consistency. Pay close attention to correct spelling and case sensitivity (e.g., uppercase/lowercase).
-* Keep dependencies minimal and list them explicitly.
-* Ensure your notebook runs from top to bottom without errors.
-* Add explanations and context so users understand the workflow.
-
-### Attention!
-
-Once accepted, **any changes** you push to your repository will **automatically** appear on the website. Keep your repository clean, well-maintained, and up to date.
-
-
-Good catch — your current **Contribute** text is *close*, but a few parts are **no longer true** given how your system actually works now (staging → promote-to-main, branches per cookbook, no GitHub Pages in external repos, etc.).
-
-Below is a **corrected and aligned version**, keeping your structure but fixing the factual issues.
-
----
-
-# Contribute to the DEDL Notebook Gallery
-
-If you have developed a Jupyter notebook that works with **Destination Earth Data Lake services** and would like to share it with others, you can contribute it to the **DEDL Notebook Gallery** by following the steps below.
-
-There are two ways to contribute:
-
-* add a notebook to an existing service section (HDA, HOOK, STACK), or
-* propose a **new notebook collection** via an external repository (“cookbook”).
-
-This section describes how to contribute an **external cookbook repository**.
-
----
-
 ## Step-by-Step: Add an External Cookbook Repository
 
 ### 1. Use the official notebook template
@@ -110,7 +21,6 @@ notebooks/
 img/
 ```
 
----
 
 ### 2. Add your notebooks and images
 
@@ -132,8 +42,6 @@ license: MIT
 * Store all images (including thumbnails) in the `img/` folder.
 * Reference images using relative paths (e.g. `img/example.png`).
 
----
-
 ### 3. Prepare your repository branches
 
 You can decide **which branch** of your repository should be used for:
@@ -146,14 +54,22 @@ Common setups are:
 * `staging` → preview
 * `main` → production
 
-You will specify both branches during submission.
+### 4. **Configure repository settings**
 
-> You **do not** need to enable GitHub Pages in your repository.
-> The gallery is built centrally — your repository is only cloned and read.
+   * **Enable GitHub Pages**
 
----
+     * Go to **Settings → Pages**.
+     * Under Build and deployment, set Source to GitHub Actions.
 
-### 4. Submit your repository via the Gallery issue form
+   * **Enable Required GitHub Actions Permissions**
+
+     * Go to **Settings → Actions → General**.
+     * Scroll to **Workflow permissions**.
+     * Select **Read and write permissions**.
+     * Click **Save** if you made any changes.
+
+
+### 5. Submit your repository via the Gallery issue form
 
 Open the **“Add new cookbook”** issue form in the Gallery repository:
 
@@ -169,7 +85,7 @@ Provide the following information:
 
 Once submitted, the issue will automatically receive the label **`add-repo`**.
 
-### 5. Automatic staging preview
+### 6. Automatic staging preview
 
 After submission:
 
@@ -185,8 +101,7 @@ This allows maintainers to review:
 * images
 * overall quality
 
-
-### 6. Review and promotion
+### 7. Review and promotion
 
 * If the submission is approved, a maintainer adds the label **`promote-to-main`**.
 * This triggers an automated workflow that updates the **main gallery**.

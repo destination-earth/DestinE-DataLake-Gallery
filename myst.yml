@@ -3,7 +3,7 @@ project:
   title: DEDL Notebook Gallery
   toc:
   - file: index.md
-  - title: contribute
+  - title: Contribute
     file: contribute.md
   - title: HDA
     file: galleries/HDA.md
@@ -122,6 +122,7 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-workflow.md
     hidden: true
+  baseurl: /DestinE-DataLake-Gallery
 site:
   template: book-theme
   options:

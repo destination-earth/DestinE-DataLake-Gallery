@@ -3,7 +3,7 @@ project:
   title: DEDL Notebook Gallery
   toc:
   - file: index.md
-  - title: contribute
+  - title: Contribute
     file: contribute.md
   - title: HDA
     file: galleries/HDA.md
@@ -64,8 +64,6 @@ project:
     children:
     - file: production/STACK/DEDL_StackService_Dask.ipynb
       hidden: true
-    - file: production/STACK/ExtremeDT_DataCube.ipynb
-      hidden: true
     - file: production/STACK/STACK-Dask-101.ipynb
       hidden: true
     - file: production/STACK/STACK-Python-Client-Dask.ipynb
@@ -122,6 +120,7 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-workflow.md
     hidden: true
+  baseurl: /dest
 site:
   template: book-theme
   options:

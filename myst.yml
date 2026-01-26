@@ -120,7 +120,7 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-workflow.md
     hidden: true
-  baseurl: /dest
+  baseurl: /DestinE-DataLake-Staging-Gallery
 site:
   template: book-theme
   options:

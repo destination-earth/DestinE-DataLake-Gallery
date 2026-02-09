@@ -20,6 +20,8 @@ project:
       hidden: true
     - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb
       hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb
+      hidden: true
     - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE-Series.ipynb
       hidden: true
     - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb
@@ -105,6 +107,8 @@ project:
   - file: galleries_by_tag/tag-olci.md
     hidden: true
   - file: galleries_by_tag/tag-pyaviso.md
+    hidden: true
+  - file: galleries_by_tag/tag-roi.md
     hidden: true
   - file: galleries_by_tag/tag-satpy.md
     hidden: true

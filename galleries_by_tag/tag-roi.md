@@ -1,4 +1,4 @@
-# Notebooks `Workflow`
+# Notebooks `ROI`
 
 ### Filter Notebooks by Tags
 
@@ -31,17 +31,17 @@
 {button}`Workflow </galleries_by_tag/tag-workflow.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="Hook Authentication Workflow Storage" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin ROI" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Hook Tutorial - Data Harvest</strong><br>
-    This notebook demonstrates how to use the Hook service.
+    <strong>ClimateDT-ROISelectionandDataAnalysis</strong><br>
+    This notebook shows how to request, access and work with Climate DT data selecting a region of interest via HDA
     <div style="margin: 6px 0;">
-      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Workflow</span><span class="tag">Storage</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span><span class="tag">ROI</span>
     </div>
-    <a href="../production/HOOK/Tutorial.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

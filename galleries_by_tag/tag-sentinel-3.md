@@ -20,6 +20,7 @@
 {button}`Metop </galleries_by_tag/tag-metop.md>`
 {button}`OLCI </galleries_by_tag/tag-olci.md>`
 {button}`pyaviso </galleries_by_tag/tag-pyaviso.md>`
+{button}`ROI </galleries_by_tag/tag-roi.md>`
 {button}`satpy </galleries_by_tag/tag-satpy.md>`
 {button}`Sentinel-3 </galleries_by_tag/tag-sentinel-3.md>`
 {button}`SEVIRI </galleries_by_tag/tag-seviri.md>`

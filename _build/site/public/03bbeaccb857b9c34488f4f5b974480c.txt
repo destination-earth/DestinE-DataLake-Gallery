@@ -1,0 +1,202 @@
+[3m                                                  HDA collections                                                  [0m
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃[1m [0m[1m                                     ID[0m[1m [0m┃[1m [0m[1mTitle                                                                [0m[1m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│[36m [0m[36m                     EO.AERIS.DAT.IAGOS[0m[36m [0m│[38;5;177m [0m[38;5;177mIn-service Aircraft for a Global Observing System                    [0m[38;5;177m [0m│
+│[36m [0m[36m                     EO.CLMS.DAT.CORINE[0m[36m [0m│[38;5;177m [0m[38;5;177mCORINE Land Cover                                                    [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.CLMS.DAT.GLO.DMP300_V1[0m[36m [0m│[38;5;177m [0m[38;5;177mDry Matter Productivity 2014-present (raster 300 m), global, 10-dail…[0m[38;5;177m [0m│
+│[36m [0m[36m            EO.CLMS.DAT.GLO.FAPAR300_V1[0m[36m [0m│[38;5;177m [0m[38;5;177mFraction of Absorbed Photosynthetically Active Radiation 2014-presen…[0m[38;5;177m [0m│
+│[36m [0m[36m           EO.CLMS.DAT.GLO.FCOVER300_V1[0m[36m [0m│[38;5;177m [0m[38;5;177mFraction of Green Vegetation Cover 2014-present (raster 300 m), glob…[0m[38;5;177m [0m│
+│[36m [0m[36m             EO.CLMS.DAT.GLO.GDMP300_V1[0m[36m [0m│[38;5;177m [0m[38;5;177mGross Dry Matter Productivity 2014-present (raster 300 m), global, 1…[0m[38;5;177m [0m│
+│[36m [0m[36m              EO.CLMS.DAT.GLO.LAI300_V1[0m[36m [0m│[38;5;177m [0m[38;5;177mLeaf Area Index 2014-present (raster 300 m), global, 10-daily – vers…[0m[38;5;177m [0m│
+│[36m [0m[36m             EO.CLMS.DAT.GLO.NDVI300_V1[0m[36m [0m│[38;5;177m [0m[38;5;177mNormalised Difference Vegetation Index 2014-2020 (raster 300 m), glo…[0m[38;5;177m [0m│
+│[36m [0m[36m            EO.CLMS.DAT.GLO.NDVI_1KM_V2[0m[36m [0m│[38;5;177m [0m[38;5;177mNormalised Difference Vegetation Index 1998-2020 (raster 1 km), glob…[0m[38;5;177m [0m│
+│[36m [0m[36m        EO.CLMS.DAT.SENTINEL-2.HRVPP.VI[0m[36m [0m│[38;5;177m [0m[38;5;177mHigh Resolution Vegetation Phenology and Productivity: Vegetation In…[0m[38;5;177m [0m│
+│[36m [0m[36m         EO.DEM.DAT.COP-DEM_GLO-30-DGED[0m[36m [0m│[38;5;177m [0m[38;5;177mCOPERNICUS Digital Elevation Model (DEM) 30 meters DGED              [0m[38;5;177m [0m│
+│[36m [0m[36m         EO.DEM.DAT.COP-DEM_GLO-30-DTED[0m[36m [0m│[38;5;177m [0m[38;5;177mCOPERNICUS Digital Elevation Model (DEM) 30 meters DTED              [0m[38;5;177m [0m│
+│[36m [0m[36m         EO.DEM.DAT.COP-DEM_GLO-90-DGED[0m[36m [0m│[38;5;177m [0m[38;5;177mCOPERNICUS Digital Elevation Model (DEM) 90 meters DGED              [0m[38;5;177m [0m│
+│[36m [0m[36m         EO.DEM.DAT.COP-DEM_GLO-90-DTED[0m[36m [0m│[38;5;177m [0m[38;5;177mCOPERNICUS Digital Elevation Model (DEM) 90 meters DTED              [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_EUROPE_AIR_QUALITY_F…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS European air quality forecasts                                  [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_EUROPE_AIR_QUALITY_R…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS European air quality reanalyses                                 [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_ATMOSHERIC_CO…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global atmospheric composition forecasts                        [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_EMISSION_INVE…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global emission inventories                                     [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_FIRE_EMISSION…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global biomass burning emissions based on fire radiative power …[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_GREENHOUSE_GA…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global greenhouse gas reanalysis (EGG4)                         [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_GREENHOUSE_GA…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_RADIATIVE_FOR…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global radiative forcings                                       [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_RADIATIVE_FOR…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global radiative forcing - auxilliary variables                 [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_REANALYSIS_EA…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global reanalysis (EAC4)                                        [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GLOBAL_REANALYSIS_EA…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global reanalysis (EAC4) monthly averaged fields                [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_GREENHOUSE_GAS_FLUXES[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS global inversion-optimised greenhouse gas fluxes and concentrat…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CAMS_SOLAR_RADIATION_TIME…[0m[36m [0m│[38;5;177m [0m[38;5;177mCAMS solar radiation time-series                                     [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ECMWF.DAT.CEMS_FIRE_HISTORICAL[0m[36m [0m│[38;5;177m [0m[38;5;177mFire danger indices historical data from the Copernicus Emergency Ma…[0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ECMWF.DAT.CEMS_GLOFAS_FORECAST[0m[36m [0m│[38;5;177m [0m[38;5;177mRiver discharge and related forecasted data by the European Flood Aw…[0m[38;5;177m [0m│
+│[36m [0m[36m    EO.ECMWF.DAT.CEMS_GLOFAS_HISTORICAL[0m[36m [0m│[38;5;177m [0m[38;5;177mRiver discharge and related historical data from the Global Flood Aw…[0m[38;5;177m [0m│
+│[36m [0m[36m    EO.ECMWF.DAT.CEMS_GLOFAS_REFORECAST[0m[36m [0m│[38;5;177m [0m[38;5;177mReforecasts of river discharge and related data by the Global Flood …[0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ECMWF.DAT.CEMS_GLOFAS_SEASONAL[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecasts of river discharge and related data by the Global…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CEMS_GLOFAS_SEASONAL_REFO…[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal reforecasts of river discharge and related data from the Gl…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.CO2_DATA_FROM_SATELLITE_S…[0m[36m [0m│[38;5;177m [0m[38;5;177mCarbon dioxide data from 2002 to present derived from satellite obse…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.DERIVED_GRIDDED_GLACIER_M…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlacier mass change gridded data from 1976 to present derived from t…[0m[38;5;177m [0m│
+│[36m [0m[36m     EO.ECMWF.DAT.DT_CLIMATE_ADAPTATION[0m[36m [0m│[38;5;177m [0m[38;5;177mClimate Change Adaptation Digital Twin (Climate Adaptation DT)       [0m[38;5;177m [0m│
+│[36m [0m[36m               EO.ECMWF.DAT.DT_EXTREMES[0m[36m [0m│[38;5;177m [0m[38;5;177mWeather-Induced Extremes Digital Twin (Extremes DT)                  [0m[38;5;177m [0m│
+│[36m [0m[36m             EO.ECMWF.DAT.EFAS_FORECAST[0m[36m [0m│[38;5;177m [0m[38;5;177mRiver discharge and related forecasted data by the European Flood Aw…[0m[38;5;177m [0m│
+│[36m [0m[36m           EO.ECMWF.DAT.EFAS_HISTORICAL[0m[36m [0m│[38;5;177m [0m[38;5;177mRiver discharge and related historical data from the European Flood …[0m[38;5;177m [0m│
+│[36m [0m[36m           EO.ECMWF.DAT.EFAS_REFORECAST[0m[36m [0m│[38;5;177m [0m[38;5;177mReforecasts of river discharge and related data by the European Floo…[0m[38;5;177m [0m│
+│[36m [0m[36m             EO.ECMWF.DAT.EFAS_SEASONAL[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecasts of river discharge and related data by the Europe…[0m[38;5;177m [0m│
+│[36m [0m[36m  EO.ECMWF.DAT.EFAS_SEASONAL_REFORECAST[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal reforecasts of river discharge and related data by the Euro…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.ERA5_HOURLY_VARIABLES_ON_…[0m[36m [0m│[38;5;177m [0m[38;5;177mERA5 hourly data on pressure levels from 1940 to present             [0m[38;5;177m [0m│
+│[36m [0m[36m          EO.ECMWF.DAT.ERA5_LAND_HOURLY[0m[36m [0m│[38;5;177m [0m[38;5;177mERA5-Land hourly data from 1950 to present                           [0m[38;5;177m [0m│
+│[36m [0m[36m         EO.ECMWF.DAT.ERA5_LAND_MONTHLY[0m[36m [0m│[38;5;177m [0m[38;5;177mERA5-Land monthly averaged data from 1950 to present                 [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.ERA5_MONTHLY_MEANS_VARIAB…[0m[36m [0m│[38;5;177m [0m[38;5;177mERA5 monthly averaged data on pressure levels from 1940 to present   [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.GLACIERS_DISTRIBUTION_DAT…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlaciers distribution data from the Randolph Glacier Inventory for y…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.METHANE_DATA_SATELLITE_SE…[0m[36m [0m│[38;5;177m [0m[38;5;177mMethane data from 2002 to present derived from satellite observations[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LE…[0m[36m [0m│[38;5;177m [0m[38;5;177mERA5 hourly data on single levels from 1940 to present               [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LE…[0m[36m [0m│[38;5;177m [0m[38;5;177mERA5 monthly averaged data on single levels from 1940 to present     [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.REANALYSIS_UERRA_EUROPE_S…[0m[36m [0m│[38;5;177m [0m[38;5;177mUERRA regional reanalysis for Europe on single levels from 1961 to 2…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SATELLITE_SEA_ICE_CONCENT…[0m[36m [0m│[38;5;177m [0m[38;5;177mSea ice concentration                                                [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SATELLITE_SEA_ICE_EDGE_TY…[0m[36m [0m│[38;5;177m [0m[38;5;177mSea ice edge and type                                                [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SATELLITE_SEA_ICE_THICKNE…[0m[36m [0m│[38;5;177m [0m[38;5;177mSea ice thickness                                                    [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SEASONAL_FORECAST_ANOMALI…[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecast anomalies on pressure levels                       [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SEASONAL_FORECAST_ANOMALI…[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecast anomalies on single levels                         [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SEASONAL_FORECAST_DAILY_D…[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecast subdaily data on pressure levels                   [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SEASONAL_FORECAST_DAILY_D…[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecast daily and subdaily data on single levels           [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SEASONAL_FORECAST_MONTHLY…[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecast monthly statistics on pressure levels              [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SEASONAL_FORECAST_MONTHLY…[0m[36m [0m│[38;5;177m [0m[38;5;177mSeasonal forecast monthly statistics on single levels                [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SEA_LEVEL_DAILY_GRIDDED_D…[0m[36m [0m│[38;5;177m [0m[38;5;177mSea level gridded data from satellite observations for the global oc…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SIS_HYDROLOGY_METEOROLOGY…[0m[36m [0m│[38;5;177m [0m[38;5;177mTemperature and precipitation climate impact indicators from 1970 to…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.ECMWF.DAT.SIS_HYDROLOGY_VARIABLES_D…[0m[36m [0m│[38;5;177m [0m[38;5;177mHydrology-related climate impact indicators from 1970 to 2100 derive…[0m[38;5;177m [0m│
+│[36m [0m[36m           EO.ESA.DAT.SENTINEL-1.L1_GRD[0m[36m [0m│[38;5;177m [0m[38;5;177mSENTINEL-1 Level 1 Ground Range Detected (GRD)                       [0m[38;5;177m [0m│
+│[36m [0m[36m           EO.ESA.DAT.SENTINEL-1.L1_SLC[0m[36m [0m│[38;5;177m [0m[38;5;177mSENTINEL-1 Level 1 Single Look Complex (SLC) - EODC store            [0m[38;5;177m [0m│
+│[36m [0m[36m          EO.ESA.DAT.SENTINEL-2.MSI.L1C[0m[36m [0m│[38;5;177m [0m[38;5;177mSentinel 2 MSI Level 1C                                              [0m[38;5;177m [0m│
+│[36m [0m[36m          EO.ESA.DAT.SENTINEL-2.MSI.L2A[0m[36m [0m│[38;5;177m [0m[38;5;177mSentinel 2 MSI Level 2-A                                             [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ESA.DAT.SENTINEL-3.OL_2_LFR___[0m[36m [0m│[38;5;177m [0m[38;5;177mOLCI Land Colour Full Resolution - Sentinel-3                        [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ESA.DAT.SENTINEL-3.OL_2_LRR___[0m[36m [0m│[38;5;177m [0m[38;5;177mOLCI Land Colour Reduced Resolution - Sentinel-3                     [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ESA.DAT.SENTINEL-3.SL_2_LST___[0m[36m [0m│[38;5;177m [0m[38;5;177mLevel 2 Land - SLSTR - Sentinel-3                                    [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ESA.DAT.SENTINEL-3.SR_2_LAN___[0m[36m [0m│[38;5;177m [0m[38;5;177mLevel 2 Land - SRAL/MWR - Sentinel-3                                 [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ESA.DAT.SENTINEL-5P.TROPOMI.L1[0m[36m [0m│[38;5;177m [0m[38;5;177mSENTINEL-5P TROPOMI Level 1B                                         [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.ESA.DAT.SENTINEL-5P.TROPOMI.L2[0m[36m [0m│[38;5;177m [0m[38;5;177mSENTINEL-5P TROPOMI Level 2                                          [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.CM.METOP.ASCSZFR02[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Level 1 SZF Climate Data Record Release 2 - Metop              [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.CM.METOP.ASCSZOR02[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Level 1 SZO Climate Data Record Release 2 - Metop              [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.CM.METOP.ASCSZRR02[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Level 1 SZR Climate Data Record Release 2 - Metop              [0m[38;5;177m [0m│
+│[36m [0m[36m                      EO.EUM.DAT.AMVR02[0m[36m [0m│[38;5;177m [0m[38;5;177mAtmospheric Motion Vectors Climate Data Record Release 2 - MFG and M…[0m[38;5;177m [0m│
+│[36m [0m[36m                    EO.EUM.DAT.GSAL2R02[0m[36m [0m│[38;5;177m [0m[38;5;177mGSA Level 2 Climate Data Record Release 2 - MFG and MSG - 0 degree   [0m[38;5;177m [0m│
+│[36m [0m[36m                EO.EUM.DAT.METOP.AMSUL1[0m[36m [0m│[38;5;177m [0m[38;5;177mAMSU-A Level 1B - Metop - Global                                     [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.DAT.METOP.ASCSZF1B[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Level 1 Sigma0 Full Resolution - Metop - Global                [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.DAT.METOP.ASCSZO1B[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Level 1 Sigma0 resampled at 25 km Swath Grid - Metop - Global  [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.DAT.METOP.ASCSZR1B[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Level 1 Sigma0 resampled at 12.5 km Swath Grid - Metop - Global[0m[38;5;177m [0m│
+│[36m [0m[36m           EO.EUM.DAT.METOP.AVHRRGACR02[0m[36m [0m│[38;5;177m [0m[38;5;177mAVHRR GAC Atmospheric Motion Vectors Climate Data Record Release 2 -…[0m[38;5;177m [0m│
+│[36m [0m[36m               EO.EUM.DAT.METOP.AVHRRL1[0m[36m [0m│[38;5;177m [0m[38;5;177mAVHRR Level 1B - Metop - Global                                      [0m[38;5;177m [0m│
+│[36m [0m[36m            EO.EUM.DAT.METOP.GLB-SST-NC[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal L3C AVHRR Sea Surface Temperature (GHRSST) - Metop            [0m[38;5;177m [0m│
+│[36m [0m[36m                EO.EUM.DAT.METOP.GOMEL1[0m[36m [0m│[38;5;177m [0m[38;5;177mGOME-2 Level 1B - Metop - Global                                     [0m[38;5;177m [0m│
+│[36m [0m[36m             EO.EUM.DAT.METOP.GOMEL1R03[0m[36m [0m│[38;5;177m [0m[38;5;177mGOME-2 Level 1B Fundamental Data Record Release 3 - Metop-A and -B   [0m[38;5;177m [0m│
+│[36m [0m[36m           EO.EUM.DAT.METOP.IASIL1C-ALL[0m[36m [0m│[38;5;177m [0m[38;5;177mIASI Level 1C - All Spectral Samples - Metop - Global                [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.DAT.METOP.IASSND02[0m[36m [0m│[38;5;177m [0m[38;5;177mIASI Combined Sounding Products - Metop                              [0m[38;5;177m [0m│
+│[36m [0m[36m             EO.EUM.DAT.METOP.IASTHR011[0m[36m [0m│[38;5;177m [0m[38;5;177mIASI All Sky Temperature and Humidity Profiles - Climate Data Record…[0m[38;5;177m [0m│
+│[36m [0m[36m               EO.EUM.DAT.METOP.LSA-002[0m[36m [0m│[38;5;177m [0m[38;5;177mDaily Land Surface Temperature - Metop                               [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.METOP.MHSL1[0m[36m [0m│[38;5;177m [0m[38;5;177mMHS Level 1B - Metop - Global                                        [0m[38;5;177m [0m│
+│[36m [0m[36m               EO.EUM.DAT.METOP.OSI-104[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Coastal Winds at 12.5 km Swath Grid - Metop                    [0m[38;5;177m [0m│
+│[36m [0m[36m             EO.EUM.DAT.METOP.OSI-150-A[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT L2 25 km Winds Data Record Release 1 - Metop                   [0m[38;5;177m [0m│
+│[36m [0m[36m             EO.EUM.DAT.METOP.OSI-150-B[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT L2 12.5 km Winds Data Record Release 1 - Metop                 [0m[38;5;177m [0m│
+│[36m [0m[36m                EO.EUM.DAT.METOP.SOMO12[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Soil Moisture at 12.5 km Swath Grid in NRT - Metop             [0m[38;5;177m [0m│
+│[36m [0m[36m                EO.EUM.DAT.METOP.SOMO25[0m[36m [0m│[38;5;177m [0m[38;5;177mASCAT Soil Moisture at 25 km Swath Grid in NRT - Metop               [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.EUM.DAT.MFG.GSA-57[0m[36m [0m│[38;5;177m [0m[38;5;177mGSA Level 2 Climate Data Record Release 2 - MFG - 57 degree          [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.EUM.DAT.MFG.GSA-63[0m[36m [0m│[38;5;177m [0m[38;5;177mGSA Level 2 Climate Data Record Release 2 - MFG - 63 degree          [0m[38;5;177m [0m│
+│[36m [0m[36m                     EO.EUM.DAT.MSG.CLM[0m[36m [0m│[38;5;177m [0m[38;5;177mCloud Mask - MSG - 0 degree                                          [0m[38;5;177m [0m│
+│[36m [0m[36m                EO.EUM.DAT.MSG.CLM-IODC[0m[36m [0m│[38;5;177m [0m[38;5;177mCloud Mask - MSG - Indian Ocean                                      [0m[38;5;177m [0m│
+│[36m [0m[36m                EO.EUM.DAT.MSG.HRSEVIRI[0m[36m [0m│[38;5;177m [0m[38;5;177mHigh Rate SEVIRI Level 1.5 Image Data - MSG - 0 degree               [0m[38;5;177m [0m│
+│[36m [0m[36m           EO.EUM.DAT.MSG.HRSEVIRI-IODC[0m[36m [0m│[38;5;177m [0m[38;5;177mHigh Rate SEVIRI Level 1.5 Image Data - MSG - Indian Ocean           [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MSG.LSA-FRM[0m[36m [0m│[38;5;177m [0m[38;5;177mFire Risk Map - Released Energy Based - MSG                          [0m[38;5;177m [0m│
+│[36m [0m[36m             EO.EUM.DAT.MSG.LSA-LST-CDR[0m[36m [0m│[38;5;177m [0m[38;5;177mLand Surface Temperature Climate Data Record - MSG                   [0m[38;5;177m [0m│
+│[36m [0m[36m               EO.EUM.DAT.MSG.LSA-LSTDE[0m[36m [0m│[38;5;177m [0m[38;5;177mLand Surface Temperature with Directional Effects - MSG              [0m[38;5;177m [0m│
+│[36m [0m[36m               EO.EUM.DAT.MSG.MSG15-RSS[0m[36m [0m│[38;5;177m [0m[38;5;177mRapid Scan High Rate SEVIRI Level 1.5 Image Data - MSG               [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MSG.OCA-CDR[0m[36m [0m│[38;5;177m [0m[38;5;177mOptimal Cloud Analysis Climate Data Record Release 1 - MSG - 0 degree[0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MSG.RSS-CLM[0m[36m [0m│[38;5;177m [0m[38;5;177mRapid Scan Cloud Mask - MSG                                          [0m[38;5;177m [0m│
+│[36m [0m[36m            EO.EUM.DAT.MTG.FCI-AMV-BUFR[0m[36m [0m│[38;5;177m [0m[38;5;177mAtmospheric Motion Vectors (BUFR) - MTG - 0 degree                   [0m[38;5;177m [0m│
+│[36m [0m[36m          EO.EUM.DAT.MTG.FCI-AMV-NETCDF[0m[36m [0m│[38;5;177m [0m[38;5;177mAtmospheric Motion Vectors (netCDF) - MTG - 0 degree                 [0m[38;5;177m [0m│
+│[36m [0m[36m            EO.EUM.DAT.MTG.FCI-ASR-BUFR[0m[36m [0m│[38;5;177m [0m[38;5;177mAll Sky Radiance (BUFR) - MTG - 0 degree                             [0m[38;5;177m [0m│
+│[36m [0m[36m          EO.EUM.DAT.MTG.FCI-ASR-NETCDF[0m[36m [0m│[38;5;177m [0m[38;5;177mAll Sky Radiance (netCDF) - MTG - 0 degree                           [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MTG.FCI-CLM[0m[36m [0m│[38;5;177m [0m[38;5;177mCloud Mask - MTG - 0 degree                                          [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MTG.FCI-GII[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Instability Indices - MTG - 0 degree                          [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MTG.FCI-OCA[0m[36m [0m│[38;5;177m [0m[38;5;177mOptimal Cloud Analysis - MTG - 0 degree                              [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MTG.FCI-OLR[0m[36m [0m│[38;5;177m [0m[38;5;177mOutgoing LW radiation at TOA - MTG - 0 degree                        [0m[38;5;177m [0m│
+│[36m [0m[36m                   EO.EUM.DAT.MTG.LI-AF[0m[36m [0m│[38;5;177m [0m[38;5;177mLI Accumulated Flashes - MTG - 0 degree                              [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.EUM.DAT.MTG.LI-AFA[0m[36m [0m│[38;5;177m [0m[38;5;177mLI Accumulated Flash Area - MTG - 0 degree                           [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.EUM.DAT.MTG.LI-AFR[0m[36m [0m│[38;5;177m [0m[38;5;177mLI Accumulated Flash Radiance - MTG - 0 degree                       [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.EUM.DAT.MTG.LI-LEF[0m[36m [0m│[38;5;177m [0m[38;5;177mLI Lightning Events Filtered - MTG - 0 degree                        [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.EUM.DAT.MTG.LI-LFL[0m[36m [0m│[38;5;177m [0m[38;5;177mLI Lightning Flashes - MTG - 0 degree                                [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.EUM.DAT.MTG.LI-LGR[0m[36m [0m│[38;5;177m [0m[38;5;177mLI Lightning Groups - MTG - 0 degree                                 [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.EUM.DAT.MULT.HIRSL1[0m[36m [0m│[38;5;177m [0m[38;5;177mHIRS Level 1B - Metop - Global                                       [0m[38;5;177m [0m│
+│[36m [0m[36m            EO.EUM.DAT.MULT.HIRSL1C-FDR[0m[36m [0m│[38;5;177m [0m[38;5;177mHIRS Level 1C Fundamental Data Record Release 1 - Multimission - Glo…[0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.DAT.SENTINEL-3.AOD[0m[36m [0m│[38;5;177m [0m[38;5;177mSLSTR Level 2 Aerosol Optical Depth - Sentinel-3                     [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.EUM.DAT.SENTINEL-3.FRP[0m[36m [0m│[38;5;177m [0m[38;5;177mSLSTR Level 2 Fire Radiative Power - Sentinel 3                      [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.OL_1_EFR___[0m[36m [0m│[38;5;177m [0m[38;5;177mOLCI Level 1B Full Resolution - Sentinel-3                           [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.OL_1_ERR___[0m[36m [0m│[38;5;177m [0m[38;5;177mOLCI Level 1B Reduced Resolution - Sentinel-3                        [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.OL_2_WFR___[0m[36m [0m│[38;5;177m [0m[38;5;177mOLCI Level 2 Ocean Colour Full Resolution - Sentinel-3               [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.OL_2_WRR___[0m[36m [0m│[38;5;177m [0m[38;5;177mOLCI Level 2 Ocean Colour Reduced Resolution - Sentinel-3            [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.SL_1_RBT___[0m[36m [0m│[38;5;177m [0m[38;5;177mSLSTR Level 1B Radiances and Brightness Temperatures - Sentinel-3    [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.SL_2_WST___[0m[36m [0m│[38;5;177m [0m[38;5;177mSLSTR Level 2 Sea Surface Temperature (SST) - Sentinel-3             [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.SR_1_SRA_A_[0m[36m [0m│[38;5;177m [0m[38;5;177mSRAL Level 1B - Sentinel-3                                           [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.SR_1_SRA_BS[0m[36m [0m│[38;5;177m [0m[38;5;177mSRAL Level 1B stack echoes - Sentinel-3                              [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.SR_1_SRA___[0m[36m [0m│[38;5;177m [0m[38;5;177mSRAL Level 1B - Sentinel-3                                           [0m[38;5;177m [0m│
+│[36m [0m[36m      EO.EUM.DAT.SENTINEL-3.SR_2_WAT___[0m[36m [0m│[38;5;177m [0m[38;5;177mSRAL Level 2 Altimetry Global - Sentinel-3                           [0m[38;5;177m [0m│
+│[36m [0m[36mEO.EUM.DAT.SENTINEL-6.L1B-RADIO_OCCULT…[0m[36m [0m│[38;5;177m [0m[38;5;177mRadio Occultation Level 1B Products - Sentinel-6                     [0m[38;5;177m [0m│
+│[36m [0m[36m                      EO.GSW.DAT.CHANGE[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Surface Water Occurrence Change Intensity 1984-2020           [0m[38;5;177m [0m│
+│[36m [0m[36m                      EO.GSW.DAT.EXTENT[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Surface Water Maximum Water Extent 1984-2021                  [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.GSW.DAT.OCCURRENCE[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Surface Water Occurrence 1984-2021                            [0m[38;5;177m [0m│
+│[36m [0m[36m                  EO.GSW.DAT.RECURRENCE[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Surface Water Recurrence 1984-2021                            [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.GSW.DAT.SEASONALITY[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Surface Water Seasonality 2014-2020                           [0m[38;5;177m [0m│
+│[36m [0m[36m                 EO.GSW.DAT.TRANSITIONS[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Surface Water Transitions 1984-2021                           [0m[38;5;177m [0m│
+│[36m [0m[36m EO.ISIMIP.DAT.CLIMATE-FORCING_ISIMIP3b[0m[36m [0m│[38;5;177m [0m[38;5;177mISIMIP3b climate input data                                          [0m[38;5;177m [0m│
+│[36m [0m[36mEO.ISIMIP.DAT.SOCIO-ECONOMIC-FORCING_I…[0m[36m [0m│[38;5;177m [0m[38;5;177mISIMIP3b socio-economic input data                                   [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.GLOBAL_ANALYSISFORECAST_BGC_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Biogeochemistry Analysis and Forecast                   [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.GLOBAL_ANALYSISFORECAST_PHY_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Physics Analysis and Forecast                           [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.GLOBAL_ANALYSISFORECAST_WAV_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Waves Analysis and Forecast                             [0m[38;5;177m [0m│
+│[36m [0m[36m EO.MO.DAT.GLOBAL_MULTIYEAR_BGC_001_033[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal ocean low and mid trophic levels biomass content hindcast     [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.GLOBAL_MULTIYEAR_PHY_ENS_001…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Ensemble Physics Reanalysis                             [0m[38;5;177m [0m│
+│[36m [0m[36m EO.MO.DAT.GLOBAL_MULTIYEAR_WAV_001_032[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Waves Reanalysis                                        [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.INSITU_GLO_PHY_TS_OA_MY_013_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean- Delayed Mode gridded CORA- In-situ Observations object…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.INSITU_GLO_PHY_TS_OA_NRT_013…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean- Real time in-situ observations objective analysis      [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.INSITU_GLO_PHY_UV_DISCRETE_N…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean- in-situ Near real time observations of ocean currents  [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.MULTIOBS_GLO_BGC_NUTRIENTS_C…[0m[36m [0m│[38;5;177m [0m[38;5;177mNutrient and carbon profiles vertical distribution                   [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.MULTIOBS_GLO_BIO_BGC_3D_REP_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean 3D Chlorophyll-a concentration, Particulate Backscatter…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.MULTIOBS_GLO_BIO_CARBON_SURF…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Surface Carbon                                          [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.MULTIOBS_GLO_PHY_MYNRT_015_0…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Total (COPERNICUS-GLOBCURRENT), Ekman and Geostrophic current…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.MULTIOBS_GLO_PHY_S_SURFACE_M…[0m[36m [0m│[38;5;177m [0m[38;5;177mMulti Observation Global Ocean Sea Surface Salinity and Sea Surface …[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.MULTIOBS_GLO_PHY_TSUV_3D_MYN…[0m[36m [0m│[38;5;177m [0m[38;5;177mMulti Observation Global Ocean 3D Temperature Salinity Height Geostr…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.MULTIOBS_GLO_PHY_W_3D_REP_01…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Observed Ocean Physics 3D Quasi-Geostrophic Currents (OMEGA3D)[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.OCEANCOLOUR_GLO_BGC_L3_MY_00…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Colour (Copernicus-GlobColour), Bio-Geo-Chemical, L3 (d…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.OCEANCOLOUR_GLO_BGC_L3_MY_00…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Colour Plankton and Reflectances MY L3 daily observatio…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.OCEANCOLOUR_GLO_BGC_L3_NRT_0…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Colour (Copernicus-GlobColour), Bio-Geo-Chemical, L3 (d…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.OCEANCOLOUR_GLO_BGC_L4_MY_00…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Colour (Copernicus-GlobColour), Bio-Geo-Chemical, L4 (m…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.OCEANCOLOUR_GLO_BGC_L4_MY_00…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Colour Plankton MY L4 monthly observations              [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.OCEANCOLOUR_GLO_BGC_L4_NRT_0…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Colour (Copernicus-GlobColour), Bio-Geo-Chemical, L4 (m…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SEAICE_GLO_SEAICE_L4_NRT_OBS…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean - Arctic and Antarctic - Sea Ice Concentration, Edge, T…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SEAICE_GLO_SEAICE_L4_NRT_OBS…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean - High Resolution SAR Sea Ice Drift                     [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SEAICE_GLO_SEAICE_L4_REP_OBS…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Sea Ice Concentration Time Series REPROCESSED (OSI-SAF) [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SEALEVEL_GLO_PHY_L4_NRT_008_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT[0m[38;5;177m [0m│
+│[36m [0m[36m EO.MO.DAT.SEALEVEL_GLO_PHY_MDT_008_063[0m[36m [0m│[38;5;177m [0m[38;5;177mGLOBAL OCEAN MEAN DYNAMIC TOPOGRAPHY                                 [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SST_GLO_SST_L3S_NRT_OBSERVAT…[0m[36m [0m│[38;5;177m [0m[38;5;177mODYSSEA Global Ocean - Sea Surface Temperature Multi-sensor L3 Obser…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SST_GLO_SST_L4_NRT_OBSERVATI…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean OSTIA Sea Surface Temperature and Sea Ice Analysis      [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SST_GLO_SST_L4_REP_OBSERVATI…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean OSTIA Sea Surface Temperature and Sea Ice Reprocessed   [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.SST_GLO_SST_L4_REP_OBSERVATI…[0m[36m [0m│[38;5;177m [0m[38;5;177mESA SST CCI and C3S reprocessed sea surface temperature analyses     [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.WAVE_GLO_PHY_SPC_FWK_L3_NRT_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGLOBAL OCEAN L3 SPECTRAL PARAMETERS FROM NRT SATELLITE MEASUREMENTS  [0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.WAVE_GLO_PHY_SWH_L3_NRT_014_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGLOBAL OCEAN L3 SIGNIFICANT WAVE HEIGHT FROM NRT SATELLITE MEASUREME…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.WAVE_GLO_PHY_SWH_L4_NRT_014_…[0m[36m [0m│[38;5;177m [0m[38;5;177mGLOBAL OCEAN L4 SIGNIFICANT WAVE HEIGHT FROM NRT SATELLITE MEASUREME…[0m[38;5;177m [0m│
+│[36m [0m[36mEO.MO.DAT.WIND_GLO_PHY_CLIMATE_L4_MY_0…[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Monthly Mean Sea Surface Wind and Stress from Scatterom…[0m[38;5;177m [0m│
+│[36m [0m[36m   EO.MO.DAT.WIND_GLO_PHY_L3_MY_012_005[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Daily Gridded Reprocessed L3 Sea Surface Winds from Sca…[0m[38;5;177m [0m│
+│[36m [0m[36m  EO.MO.DAT.WIND_GLO_PHY_L3_NRT_012_002[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Daily Gridded Sea Surface Winds from Scatterometer      [0m[38;5;177m [0m│
+│[36m [0m[36m   EO.MO.DAT.WIND_GLO_PHY_L4_MY_012_006[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Hourly Reprocessed Sea Surface Wind and Stress from Sca…[0m[38;5;177m [0m│
+│[36m [0m[36m  EO.MO.DAT.WIND_GLO_PHY_L4_NRT_012_004[0m[36m [0m│[38;5;177m [0m[38;5;177mGlobal Ocean Hourly Sea Surface Wind and Stress from Scatterometer a…[0m[38;5;177m [0m│
+│[36m [0m[36m              EO.NASA.DAT.LANDSAT.C2_L1[0m[36m [0m│[38;5;177m [0m[38;5;177mLandsat Collection 2 Level-1                                         [0m[38;5;177m [0m│
+│[36m [0m[36m              EO.NASA.DAT.LANDSAT.C2_L2[0m[36m [0m│[38;5;177m [0m[38;5;177mLandsat Collection 2 Level-2                                         [0m[38;5;177m [0m│
+│[36m [0m[36mSTAT.EUSTAT.DAT.AVAILABLE_BEDS_HOSPITA…[0m[36m [0m│[38;5;177m [0m[38;5;177mAvailable beds in hospitals by NUTS 2 region                         [0m[38;5;177m [0m│
+│[36m [0m[36mSTAT.EUSTAT.DAT.BATHING_SITES_WATER_QU…[0m[36m [0m│[38;5;177m [0m[38;5;177mBathing sites with excellent water quality by location               [0m[38;5;177m [0m│
+│[36m [0m[36mSTAT.EUSTAT.DAT.GREENHOUSE_GAS_EMISSIO…[0m[36m [0m│[38;5;177m [0m[38;5;177mEurostat - Greenhouse gas emissions from agriculture                 [0m[38;5;177m [0m│
+│[36m [0m[36mSTAT.EUSTAT.DAT.POP_AGE_GROUP_SEX_NUTS3[0m[36m [0m│[38;5;177m [0m[38;5;177mPopulation on 1 January by age, sex and NUTS 3 region                [0m[38;5;177m [0m│
+│[36m [0m[36m      STAT.EUSTAT.DAT.POP_AGE_SEX_NUTS2[0m[36m [0m│[38;5;177m [0m[38;5;177mPopulation on 1 January by age, sex and NUTS 2 region                [0m[38;5;177m [0m│
+│[36m [0m[36mSTAT.EUSTAT.DAT.POP_CHANGE_DEMO_BALANC…[0m[36m [0m│[38;5;177m [0m[38;5;177mEurostat - Population change - Demographic balance and crude rates a…[0m[38;5;177m [0m│
+│[36m [0m[36m      STAT.EUSTAT.DAT.POP_DENSITY_NUTS3[0m[36m [0m│[38;5;177m [0m[38;5;177mPopulation density by NUTS 3 region                                  [0m[38;5;177m [0m│
+│[36m [0m[36mSTAT.EUSTAT.DAT.SHARE_ENERGY_FROM_RENE…[0m[36m [0m│[38;5;177m [0m[38;5;177mEurostat - Share of energy from renewable sources                    [0m[38;5;177m [0m│
+│[36m [0m[36m     STAT.EUSTAT.DAT.SOIL_SEALING_INDEX[0m[36m [0m│[38;5;177m [0m[38;5;177mSoil sealing index                                                   [0m[38;5;177m [0m│
+│[36m [0m[36mSTAT.EUSTAT.DAT.SURFACE_TERRESTRIAL_PR…[0m[36m [0m│[38;5;177m [0m[38;5;177mSurface of the terrestrial protected areas                           [0m[38;5;177m [0m│
+└─────────────────────────────────────────┴───────────────────────────────────────────────────────────────────────┘

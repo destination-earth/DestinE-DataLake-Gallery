@@ -108,6 +108,8 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-pyaviso.md
     hidden: true
+  - file: galleries_by_tag/tag-queryables.md
+    hidden: true
   - file: galleries_by_tag/tag-roi.md
     hidden: true
   - file: galleries_by_tag/tag-satpy.md

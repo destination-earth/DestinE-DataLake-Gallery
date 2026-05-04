@@ -47,6 +47,8 @@ project:
       hidden: true
     - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb
       hidden: true
+    - file: production/HDA/REST/HDA-REST-API-key.ipynb
+      hidden: true
     - file: production/HDA/REST/HDA-REST-Queryables.ipynb
       hidden: true
     - file: production/HDA/REST/HDA-REST-full-version.ipynb
@@ -74,6 +76,8 @@ project:
       hidden: true
   - file: galleries_by_tag/tag-access-token.md
     hidden: true
+  - file: galleries_by_tag/tag-api-key.md
+    hidden: true
   - file: galleries_by_tag/tag-authentication.md
     hidden: true
   - file: galleries_by_tag/tag-avhrr.md
@@ -85,6 +89,8 @@ project:
   - file: galleries_by_tag/tag-core-api.md
     hidden: true
   - file: galleries_by_tag/tag-dask.md
+    hidden: true
+  - file: galleries_by_tag/tag-destinelab.md
     hidden: true
   - file: galleries_by_tag/tag-digital-twin.md
     hidden: true

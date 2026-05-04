@@ -3,12 +3,14 @@
 ### Filter Notebooks by Tags
 
 {button}`Access Token </galleries_by_tag/tag-access-token.md>`
+{button}`API-key </galleries_by_tag/tag-api-key.md>`
 {button}`Authentication </galleries_by_tag/tag-authentication.md>`
 {button}`AVHRR </galleries_by_tag/tag-avhrr.md>`
 {button}`C3S </galleries_by_tag/tag-c3s.md>`
 {button}`Cluster </galleries_by_tag/tag-cluster.md>`
 {button}`Core API </galleries_by_tag/tag-core-api.md>`
 {button}`Dask </galleries_by_tag/tag-dask.md>`
+{button}`DestineLab </galleries_by_tag/tag-destinelab.md>`
 {button}`Digital Twin </galleries_by_tag/tag-digital-twin.md>`
 {button}`earthkit </galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF </galleries_by_tag/tag-ecmwf.md>`

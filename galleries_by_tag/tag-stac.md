@@ -3,12 +3,14 @@
 ### Filter Notebooks by Tags
 
 {button}`Access Token </galleries_by_tag/tag-access-token.md>`
+{button}`API-key </galleries_by_tag/tag-api-key.md>`
 {button}`Authentication </galleries_by_tag/tag-authentication.md>`
 {button}`AVHRR </galleries_by_tag/tag-avhrr.md>`
 {button}`C3S </galleries_by_tag/tag-c3s.md>`
 {button}`Cluster </galleries_by_tag/tag-cluster.md>`
 {button}`Core API </galleries_by_tag/tag-core-api.md>`
 {button}`Dask </galleries_by_tag/tag-dask.md>`
+{button}`DestineLab </galleries_by_tag/tag-destinelab.md>`
 {button}`Digital Twin </galleries_by_tag/tag-digital-twin.md>`
 {button}`earthkit </galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF </galleries_by_tag/tag-ecmwf.md>`
@@ -108,6 +110,19 @@
       <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Core API</span>
     </div>
     <a href="../production/HDA/REST/HDA-REST-full-version.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA STAC HTTP requests API-key DestineLab" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Using DEDL API Keys for Automated Workflows</strong><br>
+    Demonstrating DestinE Data Lake API Keys usage for accessing data via HDA
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span><span class="tag">API-key</span><span class="tag">DestineLab</span>
+    </div>
+    <a href="../production/HDA/REST/HDA-REST-API-key.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

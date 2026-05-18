@@ -1,4 +1,4 @@
-# Notebooks `Hook`
+# Notebooks `Machine Learning`
 
 ### Filter Notebooks by Tags
 
@@ -46,43 +46,30 @@
 {button}`XGBoost </galleries_by_tag/tag-xgboost.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="Hook Authentication Workflow Storage" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="scikit-learn cuML Machine Learning GPU" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/EUMETSAT-icon.png.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Hook Tutorial - Data Harvest</strong><br>
-    This notebook demonstrates how to use the Hook service.
+    <strong>scikit-learn vs cuML</strong><br>
+    scikit-learn vs cuML comparison on basic ML methods.
     <div style="margin: 6px 0;">
-      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Workflow</span><span class="tag">Storage</span>
+      <span class="tag">scikit-learn</span><span class="tag">cuML</span><span class="tag">Machine Learning</span><span class="tag">GPU</span>
     </div>
-    <a href="../production/HOOK/Tutorial.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/STACK/gpu_usage_demos/sklearn_demo.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="XGBoost Machine Learning CUDA GPU" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/EUMETSAT-icon.png.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Access to Hook services</strong><br>
-    This Notebook demonstrates the retrieval of a token appropriate for interaction with the OnDemand Processing API (Hook API) and listing of available Hooks (Processors) using the retrieved token.
+    <strong>XGBoost GPU training</strong><br>
+    CPU and CUDA training comparison for decision tree.
     <div style="margin: 6px 0;">
-      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
+      <span class="tag">XGBoost</span><span class="tag">Machine Learning</span><span class="tag">CUDA</span><span class="tag">GPU</span>
     </div>
-    <a href="../production/HOOK/DEDL-Hook_access.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Hook - Perform data harvesting</strong><br>
-    This Notebook demonstrates how to perform data harvesting with Hook.
-    <div style="margin: 6px 0;">
-      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
-    </div>
-    <a href="../production/HOOK/DEDL-Hook_data_harvest.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/STACK/gpu_usage_demos/xgboost_gpu_demo.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

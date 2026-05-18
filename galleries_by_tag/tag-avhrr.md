@@ -9,29 +9,41 @@
 {button}`C3S </galleries_by_tag/tag-c3s.md>`
 {button}`Cluster </galleries_by_tag/tag-cluster.md>`
 {button}`Core API </galleries_by_tag/tag-core-api.md>`
+{button}`CUDA </galleries_by_tag/tag-cuda.md>`
+{button}`cuDF </galleries_by_tag/tag-cudf.md>`
+{button}`cuML </galleries_by_tag/tag-cuml.md>`
 {button}`Dask </galleries_by_tag/tag-dask.md>`
+{button}`Deep Learning </galleries_by_tag/tag-deep-learning.md>`
 {button}`DestineLab </galleries_by_tag/tag-destinelab.md>`
 {button}`Digital Twin </galleries_by_tag/tag-digital-twin.md>`
 {button}`earthkit </galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF </galleries_by_tag/tag-ecmwf.md>`
 {button}`EODAG </galleries_by_tag/tag-eodag.md>`
 {button}`GFM </galleries_by_tag/tag-gfm.md>`
+{button}`GPU </galleries_by_tag/tag-gpu.md>`
 {button}`HDA </galleries_by_tag/tag-hda.md>`
 {button}`Hook </galleries_by_tag/tag-hook.md>`
 {button}`HTTP requests </galleries_by_tag/tag-http-requests.md>`
+{button}`Machine Learning </galleries_by_tag/tag-machine-learning.md>`
 {button}`Metop </galleries_by_tag/tag-metop.md>`
 {button}`OLCI </galleries_by_tag/tag-olci.md>`
 {button}`pyaviso </galleries_by_tag/tag-pyaviso.md>`
+{button}`PyTorch </galleries_by_tag/tag-pytorch.md>`
 {button}`Queryables </galleries_by_tag/tag-queryables.md>`
+{button}`RAPIDS </galleries_by_tag/tag-rapids.md>`
 {button}`ROI </galleries_by_tag/tag-roi.md>`
 {button}`satpy </galleries_by_tag/tag-satpy.md>`
+{button}`scikit-learn </galleries_by_tag/tag-scikit-learn.md>`
+{button}`Sentinel-2 </galleries_by_tag/tag-sentinel-2.md>`
 {button}`Sentinel-3 </galleries_by_tag/tag-sentinel-3.md>`
 {button}`SEVIRI </galleries_by_tag/tag-seviri.md>`
 {button}`STAC </galleries_by_tag/tag-stac.md>`
 {button}`STACK </galleries_by_tag/tag-stack.md>`
 {button}`Storage </galleries_by_tag/tag-storage.md>`
+{button}`TensorFlow </galleries_by_tag/tag-tensorflow.md>`
 {button}`Token </galleries_by_tag/tag-token.md>`
 {button}`Workflow </galleries_by_tag/tag-workflow.md>`
+{button}`XGBoost </galleries_by_tag/tag-xgboost.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
 <div class="notebook-card" data-tags="HDA Metop AVHRR satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">

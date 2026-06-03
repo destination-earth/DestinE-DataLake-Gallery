@@ -1,4 +1,4 @@
-# Notebooks `Token`
+# Notebooks `ERA5`
 
 ### Filter Notebooks by Tags
 
@@ -48,30 +48,17 @@
 {button}`XGBoost </galleries_by_tag/tag-xgboost.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC ECMWF ERA5" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Access to Hook services</strong><br>
-    This Notebook demonstrates the retrieval of a token appropriate for interaction with the OnDemand Processing API (Hook API) and listing of available Hooks (Processors) using the retrieved token.
+    <strong>ERA5 hourly data on single levels from 1940 to present</strong><br>
+    This notebook shows how to authenticate with the DestinE API, queries and downloads ERA5 single-level reanalysis data using the DEDL HDA service, and visualizes the result with EarthKit.
     <div style="margin: 6px 0;">
-      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">ECMWF</span><span class="tag">ERA5</span>
     </div>
-    <a href="../production/HOOK/DEDL-Hook_access.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="Hook Authentication Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Hook - Perform data harvesting</strong><br>
-    This Notebook demonstrates how to perform data harvesting with Hook.
-    <div style="margin: 6px 0;">
-      <span class="tag">Hook</span><span class="tag">Authentication</span><span class="tag">Token</span>
-    </div>
-    <a href="../production/HOOK/DEDL-Hook_data_harvest.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

@@ -120,6 +120,8 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-eodag.md
     hidden: true
+  - file: galleries_by_tag/tag-era5.md
+    hidden: true
   - file: galleries_by_tag/tag-gfm.md
     hidden: true
   - file: galleries_by_tag/tag-gpu.md
@@ -163,6 +165,8 @@ project:
   - file: galleries_by_tag/tag-storage.md
     hidden: true
   - file: galleries_by_tag/tag-tensorflow.md
+    hidden: true
+  - file: galleries_by_tag/tag-time-series.md
     hidden: true
   - file: galleries_by_tag/tag-token.md
     hidden: true

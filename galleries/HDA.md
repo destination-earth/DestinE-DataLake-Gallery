@@ -19,6 +19,7 @@
 {button}`earthkit </galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF </galleries_by_tag/tag-ecmwf.md>`
 {button}`EODAG </galleries_by_tag/tag-eodag.md>`
+{button}`ERA5 </galleries_by_tag/tag-era5.md>`
 {button}`GFM </galleries_by_tag/tag-gfm.md>`
 {button}`GPU </galleries_by_tag/tag-gpu.md>`
 {button}`HDA </galleries_by_tag/tag-hda.md>`
@@ -41,6 +42,7 @@
 {button}`STACK </galleries_by_tag/tag-stack.md>`
 {button}`Storage </galleries_by_tag/tag-storage.md>`
 {button}`TensorFlow </galleries_by_tag/tag-tensorflow.md>`
+{button}`Time Series </galleries_by_tag/tag-time-series.md>`
 {button}`Token </galleries_by_tag/tag-token.md>`
 {button}`Workflow </galleries_by_tag/tag-workflow.md>`
 {button}`XGBoost </galleries_by_tag/tag-xgboost.md>`
@@ -111,7 +113,7 @@
     <a href="/production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.SENTINEL-3.OL_1_ERR___.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA STAC ECMWF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC ECMWF ERA5" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="/img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
@@ -119,7 +121,7 @@
     <strong>ERA5 hourly data on single levels from 1940 to present</strong><br>
     This notebook shows how to authenticate with the DestinE API, queries and downloads ERA5 single-level reanalysis data using the DEDL HDA service, and visualizes the result with EarthKit.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">ECMWF</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">ECMWF</span><span class="tag">ERA5</span>
     </div>
     <a href="/production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
@@ -228,15 +230,15 @@
     <a href="/production/HDA/REST/HDA-REST-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF Digital Twin Time Series" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="/img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
     <strong>HDA Extract Location Values - Tutorial</strong><br>
-    This notebook provides a hands-on introduction to working with data from the Destination Earth Climate Digital Twin (DT).
+    This notebook shows how to extract timeseries location values from the Destination Earth Climate Digital Twin (DT) via HDA.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span><span class="tag">Time Series</span>
     </div>
     <a href="/production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
@@ -325,7 +327,7 @@
   </div>
   <div style="flex: 1;">
     <strong>Weather-Induced Extremes DT Parameter Plotter Tutorial</strong><br>
-    This notebook shows how to select, request, and download Climate Digital Twin Extremes data from the DestinE Data Lake (DEDL HDA), including user-defined parameter, scenario, date, and level selection, followed by secure authentication, API querying, and visualization using EarthKit.
+    This notebook shows how to select, request, and download Digital Twin for Weather-Induced Extremes data from the DestinE Data Lake (DEDL HDA), including user-defined parameter, date, and level selection, followed by secure authentication, API querying, and visualization using EarthKit.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
     </div>

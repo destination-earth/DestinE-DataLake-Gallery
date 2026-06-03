@@ -19,6 +19,7 @@
 {button}`earthkit </galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF </galleries_by_tag/tag-ecmwf.md>`
 {button}`EODAG </galleries_by_tag/tag-eodag.md>`
+{button}`ERA5 </galleries_by_tag/tag-era5.md>`
 {button}`GFM </galleries_by_tag/tag-gfm.md>`
 {button}`GPU </galleries_by_tag/tag-gpu.md>`
 {button}`HDA </galleries_by_tag/tag-hda.md>`
@@ -41,6 +42,7 @@
 {button}`STACK </galleries_by_tag/tag-stack.md>`
 {button}`Storage </galleries_by_tag/tag-storage.md>`
 {button}`TensorFlow </galleries_by_tag/tag-tensorflow.md>`
+{button}`Time Series </galleries_by_tag/tag-time-series.md>`
 {button}`Token </galleries_by_tag/tag-token.md>`
 {button}`Workflow </galleries_by_tag/tag-workflow.md>`
 {button}`XGBoost </galleries_by_tag/tag-xgboost.md>`

@@ -74,6 +74,18 @@ project:
       hidden: true
     - file: production/STACK/STACK-Python-Client-Dask.ipynb
       hidden: true
+    - file: production/STACK/gpu_usage_demos/dl_remote_sensing_demo.ipynb
+      hidden: true
+    - file: production/STACK/gpu_usage_demos/pytorch_demo.ipynb
+      hidden: true
+    - file: production/STACK/gpu_usage_demos/rapids_demo.ipynb
+      hidden: true
+    - file: production/STACK/gpu_usage_demos/sklearn_demo.ipynb
+      hidden: true
+    - file: production/STACK/gpu_usage_demos/tensorflow_demo.ipynb
+      hidden: true
+    - file: production/STACK/gpu_usage_demos/xgboost_gpu_demo.ipynb
+      hidden: true
   - file: galleries_by_tag/tag-access-token.md
     hidden: true
   - file: galleries_by_tag/tag-api-key.md
@@ -88,7 +100,15 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-core-api.md
     hidden: true
+  - file: galleries_by_tag/tag-cuda.md
+    hidden: true
+  - file: galleries_by_tag/tag-cudf.md
+    hidden: true
+  - file: galleries_by_tag/tag-cuml.md
+    hidden: true
   - file: galleries_by_tag/tag-dask.md
+    hidden: true
+  - file: galleries_by_tag/tag-deep-learning.md
     hidden: true
   - file: galleries_by_tag/tag-destinelab.md
     hidden: true
@@ -100,7 +120,11 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-eodag.md
     hidden: true
+  - file: galleries_by_tag/tag-era5.md
+    hidden: true
   - file: galleries_by_tag/tag-gfm.md
+    hidden: true
+  - file: galleries_by_tag/tag-gpu.md
     hidden: true
   - file: galleries_by_tag/tag-hda.md
     hidden: true
@@ -108,17 +132,27 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-http-requests.md
     hidden: true
+  - file: galleries_by_tag/tag-machine-learning.md
+    hidden: true
   - file: galleries_by_tag/tag-metop.md
     hidden: true
   - file: galleries_by_tag/tag-olci.md
     hidden: true
   - file: galleries_by_tag/tag-pyaviso.md
     hidden: true
+  - file: galleries_by_tag/tag-pytorch.md
+    hidden: true
   - file: galleries_by_tag/tag-queryables.md
+    hidden: true
+  - file: galleries_by_tag/tag-rapids.md
     hidden: true
   - file: galleries_by_tag/tag-roi.md
     hidden: true
   - file: galleries_by_tag/tag-satpy.md
+    hidden: true
+  - file: galleries_by_tag/tag-scikit-learn.md
+    hidden: true
+  - file: galleries_by_tag/tag-sentinel-2.md
     hidden: true
   - file: galleries_by_tag/tag-sentinel-3.md
     hidden: true
@@ -130,9 +164,15 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-storage.md
     hidden: true
+  - file: galleries_by_tag/tag-tensorflow.md
+    hidden: true
+  - file: galleries_by_tag/tag-time-series.md
+    hidden: true
   - file: galleries_by_tag/tag-token.md
     hidden: true
   - file: galleries_by_tag/tag-workflow.md
+    hidden: true
+  - file: galleries_by_tag/tag-xgboost.md
     hidden: true
   baseurl: /DestinE-DataLake-Gallery
 site:

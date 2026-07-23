@@ -5,6 +5,64 @@ project:
   - file: index.md
   - title: Contribute
     file: contribute.md
+  - title: HOOK
+    file: galleries/HOOK.md
+    children:
+    - file: production/HOOK/DEDL-Hook_access.ipynb
+      hidden: true
+    - file: production/HOOK/DEDL-Hook_data_harvest.ipynb
+      hidden: true
+    - file: production/HOOK/Tutorial.ipynb
+      hidden: true
+  - title: HDA
+    file: galleries/HDA.md
+    children:
+    - file: production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb
+      hidden: true
+    - file: production/HDA/PySTAC/HDA-PyStac-Client.ipynb
+      hidden: true
+    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-1.L1_GRD.ipynb
+      hidden: true
+    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-API-key.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-Queryables.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-full-version.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-quick-start.ipynb
+      hidden: true
+    - file: production/HDA/EODAG/HDA-EODAG-full-version.ipynb
+      hidden: true
+    - file: production/HDA/EODAG/HDA-EODAG-quick-start.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE-Series.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES-Series.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/ExtremeDT-ParameterPlotter.ipynb
+      hidden: true
+    - file: production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb
+      hidden: true
+    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb
+      hidden: true
+    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MSG-1.5.ipynb
+      hidden: true
+    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MTG.ipynb
+      hidden: true
+    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.SENTINEL-3.OL_1_ERR___.ipynb
+      hidden: true
   - title: STACK
     file: galleries/STACK.md
     children:
@@ -27,64 +85,6 @@ project:
     - file: production/STACK/gpu_usage_demos/tensorflow_demo.ipynb
       hidden: true
     - file: production/STACK/gpu_usage_demos/xgboost_gpu_demo.ipynb
-      hidden: true
-  - title: HDA
-    file: galleries/HDA.md
-    children:
-    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb
-      hidden: true
-    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MSG-1.5.ipynb
-      hidden: true
-    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MTG.ipynb
-      hidden: true
-    - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.SENTINEL-3.OL_1_ERR___.ipynb
-      hidden: true
-    - file: production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb
-      hidden: true
-    - file: production/HDA/EODAG/HDA-EODAG-full-version.ipynb
-      hidden: true
-    - file: production/HDA/EODAG/HDA-EODAG-quick-start.ipynb
-      hidden: true
-    - file: production/HDA/PySTAC/HDA-PyStac-Client.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE-Series.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES-Series.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/ExtremeDT-ParameterPlotter.ipynb
-      hidden: true
-    - file: production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb
-      hidden: true
-    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-1.L1_GRD.ipynb
-      hidden: true
-    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-API-key.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-Queryables.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-full-version.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-quick-start.ipynb
-      hidden: true
-  - title: HOOK
-    file: galleries/HOOK.md
-    children:
-    - file: production/HOOK/DEDL-Hook_access.ipynb
-      hidden: true
-    - file: production/HOOK/DEDL-Hook_data_harvest.ipynb
-      hidden: true
-    - file: production/HOOK/Tutorial.ipynb
       hidden: true
   - file: galleries_by_tag/tag-access-token.md
     hidden: true

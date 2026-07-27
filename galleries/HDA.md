@@ -9,6 +9,7 @@
 {button}`C3S </galleries_by_tag/tag-c3s.md>`
 {button}`Cluster </galleries_by_tag/tag-cluster.md>`
 {button}`Core API </galleries_by_tag/tag-core-api.md>`
+{button}`CQL2 </galleries_by_tag/tag-cql2.md>`
 {button}`CUDA </galleries_by_tag/tag-cuda.md>`
 {button}`cuDF </galleries_by_tag/tag-cudf.md>`
 {button}`cuML </galleries_by_tag/tag-cuml.md>`
@@ -75,6 +76,19 @@
       <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Authentication</span><span class="tag">Access Token</span>
     </div>
     <a href="/production/HDA/PySTAC/HDA-PyStac-Client.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA STAC CQL2" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="/img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Filtering datasets with the STAC API Filter extension (CQL2)</strong><br>
+    This notebook shows how to use CQL2 filters, defined by the STAC API Filter extension, to find datasets in the DestinE Data Lake (HDA). 
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">CQL2</span>
+    </div>
+    <a href="/production/HDA/PySTAC/Data-Discovery/HDA-Dataset-Discovery-STAC-API-Filter-Extension.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">

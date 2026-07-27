@@ -9,6 +9,7 @@
 {button}`C3S </galleries_by_tag/tag-c3s.md>`
 {button}`Cluster </galleries_by_tag/tag-cluster.md>`
 {button}`Core API </galleries_by_tag/tag-core-api.md>`
+{button}`CQL2 </galleries_by_tag/tag-cql2.md>`
 {button}`CUDA </galleries_by_tag/tag-cuda.md>`
 {button}`cuDF </galleries_by_tag/tag-cudf.md>`
 {button}`cuML </galleries_by_tag/tag-cuml.md>`

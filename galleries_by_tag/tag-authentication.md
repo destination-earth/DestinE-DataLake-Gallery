@@ -25,8 +25,11 @@
 {button}`HDA </galleries_by_tag/tag-hda.md>`
 {button}`Hook </galleries_by_tag/tag-hook.md>`
 {button}`HTTP requests </galleries_by_tag/tag-http-requests.md>`
+{button}`LI </galleries_by_tag/tag-li.md>`
+{button}`Lightning </galleries_by_tag/tag-lightning.md>`
 {button}`Machine Learning </galleries_by_tag/tag-machine-learning.md>`
 {button}`Metop </galleries_by_tag/tag-metop.md>`
+{button}`MTG </galleries_by_tag/tag-mtg.md>`
 {button}`OLCI </galleries_by_tag/tag-olci.md>`
 {button}`pyaviso </galleries_by_tag/tag-pyaviso.md>`
 {button}`PyTorch </galleries_by_tag/tag-pytorch.md>`
@@ -145,7 +148,7 @@
   </div>
   <div style="flex: 1;">
     <strong>Climate DT Parameter - Data Access using DEDL HDA</strong><br>
-    This notebook authenticates with the DestinE API, queries ECMWF Climate Digital Twin adaptation data based on ScenarioMIP parameters, downloads the selected forecast data using a robust retry mechanism, and visualizes it using EarthKit.
+    This notebook authenticates with the DestinE API, queries ECMWF Climate Digital Twin adaptation data, downloads the selected data using a  retry mechanism, and visualizes it using EarthKit.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
     </div>
@@ -157,8 +160,8 @@
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Weather-Induced Extremes Digital Twin Series</strong><br>
-    his notebook authenticates with the DestinE API, queries ECMWF Extremes Digital Twin forecast data for a user-selected date within the last 14 days, downloads it, and visualizes wind gust and sea-level pressure fields using EarthKit.
+    <strong>Weather-Induced Extremes DT Parameter - Time Series Plot - Data Access using DEDL HDA</strong><br>
+    This notebook authenticates with the DestinE API, queries ECMWF Extremes Digital Twin forecast data for a date within the last 14 days, downloads it, and visualizes wind gust and sea-level pressure fields using EarthKit.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
     </div>
@@ -170,8 +173,8 @@
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Climate DT Parameter Series Plot- Data Access using DEDL HDA</strong><br>
-    This notebook authenticates a user with DestinE services, constructs and submits data requests to the DEDL HDA API for Climate Digital Twin projections, polls for availability, downloads GRIB data for multiple years, and visualizes it using EarthKit.
+    <strong>Climate DT Parameter - Time Series Plot - Data Access via DEDL HDA</strong><br>
+    This notebook authenticates users with DestinE services, submits data requests through the DEDL HDA API for Climate Digital Twin projections, monitors the request status, downloads the requested multi-year GRIB datasets, and visualizes the results using EarthKit.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
     </div>

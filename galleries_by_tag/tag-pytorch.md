@@ -25,8 +25,11 @@
 {button}`HDA </galleries_by_tag/tag-hda.md>`
 {button}`Hook </galleries_by_tag/tag-hook.md>`
 {button}`HTTP requests </galleries_by_tag/tag-http-requests.md>`
+{button}`LI </galleries_by_tag/tag-li.md>`
+{button}`Lightning </galleries_by_tag/tag-lightning.md>`
 {button}`Machine Learning </galleries_by_tag/tag-machine-learning.md>`
 {button}`Metop </galleries_by_tag/tag-metop.md>`
+{button}`MTG </galleries_by_tag/tag-mtg.md>`
 {button}`OLCI </galleries_by_tag/tag-olci.md>`
 {button}`pyaviso </galleries_by_tag/tag-pyaviso.md>`
 {button}`PyTorch </galleries_by_tag/tag-pytorch.md>`

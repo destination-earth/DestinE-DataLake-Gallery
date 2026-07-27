@@ -25,8 +25,11 @@
 {button}`HDA </galleries_by_tag/tag-hda.md>`
 {button}`Hook </galleries_by_tag/tag-hook.md>`
 {button}`HTTP requests </galleries_by_tag/tag-http-requests.md>`
+{button}`LI </galleries_by_tag/tag-li.md>`
+{button}`Lightning </galleries_by_tag/tag-lightning.md>`
 {button}`Machine Learning </galleries_by_tag/tag-machine-learning.md>`
 {button}`Metop </galleries_by_tag/tag-metop.md>`
+{button}`MTG </galleries_by_tag/tag-mtg.md>`
 {button}`OLCI </galleries_by_tag/tag-olci.md>`
 {button}`pyaviso </galleries_by_tag/tag-pyaviso.md>`
 {button}`PyTorch </galleries_by_tag/tag-pytorch.md>`
@@ -59,19 +62,6 @@
       <span class="tag">HDA</span><span class="tag">Metop</span><span class="tag">AVHRR</span><span class="tag">satpy</span>
     </div>
     <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>DEDL-HDA-MTG</strong><br>
-    This notebook demonstrates how to search, download and raed dta using HDA an satpy.
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">satpy</span>
-    </div>
-    <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MTG.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA OLCI Sentinel-3 satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">

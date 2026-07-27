@@ -132,9 +132,15 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-http-requests.md
     hidden: true
+  - file: galleries_by_tag/tag-li.md
+    hidden: true
+  - file: galleries_by_tag/tag-lightning.md
+    hidden: true
   - file: galleries_by_tag/tag-machine-learning.md
     hidden: true
   - file: galleries_by_tag/tag-metop.md
+    hidden: true
+  - file: galleries_by_tag/tag-mtg.md
     hidden: true
   - file: galleries_by_tag/tag-olci.md
     hidden: true

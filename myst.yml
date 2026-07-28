@@ -21,6 +21,8 @@ project:
       hidden: true
     - file: production/HDA/PySTAC/HDA-PyStac-Client.ipynb
       hidden: true
+    - file: production/HDA/PySTAC/Data-Discovery/HDA-Dataset-Discovery-STAC-API-Filter-Extension.ipynb
+      hidden: true
     - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-1.L1_GRD.ipynb
       hidden: true
     - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb
@@ -99,6 +101,8 @@ project:
   - file: galleries_by_tag/tag-cluster.md
     hidden: true
   - file: galleries_by_tag/tag-core-api.md
+    hidden: true
+  - file: galleries_by_tag/tag-cql2.md
     hidden: true
   - file: galleries_by_tag/tag-cuda.md
     hidden: true

@@ -55,25 +55,56 @@ The DestinE Data Lake provides three main services to help you discover, process
 
 ---
 
-### Using Notebooks on the DestinE Platform
+## Notebooks Execution Environment
 
-If you are working in the DestinE JupyterLab environment, set up your environment as follows:
+Notebooks in this gallery are designed to run in the [**DEDL STACK**](https://jupyter.central.data.destination-earth.eu/hub/) environment using the default **Python DEDL** kernel.
 
-```bash
-# 1. Create a virtual environment
-python -m venv /home/jovyan/my_env
+For users planning to run these notebooks outside the DEDL Stack environment, the file [`dedl-python-kernel-packages.txt`](https://raw.githubusercontent.com/destination-earth/DestinE-DataLake-Lab/refs/heads/main/dedl-python-kernel-packages.txt) provides the list of libraries currently available in the default **Python DEDL** kernel and can be used as a reference when setting up a local environment (dedl-python-kernel-packages.txt file obtained via the *pip list --format=freeze > dedl-python-kernel-packages.txt* command in the DEDL STACK).
 
-# 2. Activate the environment
-source /home/jovyan/my_env/bin/activate
 
-# 3. Install required dependencies
-pip install -r /home/jovyan/datalake-lab/requirements.txt
+### Availability in Insula
 
-# 4. Register the environment as a Jupyter kernel
-python -m ipykernel install --name my_env --user
-```
+A subset of these notebooks is also available to Insula users through the Insula Code environment:
 
-After installation, choose `my_env` from the Jupyter kernel menu to start running notebooks.
+https://code.insula.destine.eu/hub/
+
+When running the notebooks in Insula, please follow the environment-specific instructions provided below. 
+
+#### DestinE Platform Insula Service Users
+<br>
+Please perform the following and select my-datalake-lab kernel when running the provided Notebooks<br>
+
+Open a terminal window (File -> New -> Terminal) and run the following commands in sequence:
+
+Create a virtual environment: 
+     
+     python -m venv /home/jovyan/my-datalake-lab
+
+Activate it: 
+     
+     source /home/jovyan/my_datalake_lab/bin/activate
+
+Install required dependencies for this example Notebooks:
+
+     pip install -r /home/jovyan/datalake-lab-insula/HDA/insula-requirements.txt
+
+Verify the installation:
+     
+     pip list | grep destinelab
+
+This should give:
+
+destinelab         1.14
+
+Install kernel my_env. Run the command:
+
+     python -m ipykernel install --name my_datalake_lab --user
+
+**Select the kernel my_datalake_lab from the top-right menu of these notebooks.**
+
+Users who already have a previous version of the 'my_datalake_lab' environment installed, should delete the kernel before running the steps above. 
+
+To delete the my_datalake_lab kernel please run the following command: 'jupyter kernelspec uninstall my_datalake_lab' from a terminal window.
 
 ---
 

@@ -52,17 +52,30 @@
 {button}`XGBoost </galleries_by_tag/tag-xgboost.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="HDA STAC ECMWF ERA5" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>ERA5 hourly data on single levels from 1940 to present</strong><br>
-    This notebook shows how to authenticate with the DestinE API, queries and downloads ERA5 single-level reanalysis data using the DEDL HDA service, and visualizes the result with EarthKit.
+    <strong>EODAG - DestinE Data Lake Provider</strong><br>
+    This notebook demonstrates how to use the DEDL provider in EODAG.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">ECMWF</span><span class="tag">ERA5</span>
+      <span class="tag">HDA</span><span class="tag">EODAG</span>
     </div>
-    <a href="../production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/EODAG/HDA-EODAG-full-version.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>EODAG - A quick start with DEDL</strong><br>
+    This notebook provides a quickstart guide for using the EODAG Python API and CLI to search, discover, and download DEDL data.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">EODAG</span>
+    </div>
+    <a href="../production/HDA/EODAG/HDA-EODAG-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -91,17 +104,17 @@
     <a href="../production/HDA/PySTAC/Data-Discovery/HDA-Dataset-Discovery-STAC-API-Filter-Extension.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA STAC HTTP requests API-key DestineLab" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC ECMWF ERA5" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Using DEDL API Keys for Automated Workflows</strong><br>
-    Demonstrating DestinE Data Lake API Keys usage for accessing data via HDA
+    <strong>ERA5 hourly data on single levels from 1940 to present</strong><br>
+    This notebook shows how to authenticate with the DestinE API, queries and downloads ERA5 single-level reanalysis data using the DEDL HDA service, and visualizes the result with EarthKit.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span><span class="tag">API-key</span><span class="tag">DestineLab</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">ECMWF</span><span class="tag">ERA5</span>
     </div>
-    <a href="../production/HDA/REST/HDA-REST-API-key.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA STAC Core API" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -117,30 +130,17 @@
     <a href="../production/HDA/REST/HDA-REST-full-version.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA STAC HTTP requests" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC HTTP requests API-key DestineLab" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>HDA Tutorial - Quick start</strong><br>
-    This notebook demonstrates how to use the HDA (Harmonized Data Access) API by sending a few HTTP requests to the API, using Python code.
+    <strong>Using DEDL API Keys for Automated Workflows</strong><br>
+    Demonstrating DestinE Data Lake API Keys usage for accessing data via HDA
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span><span class="tag">API-key</span><span class="tag">DestineLab</span>
     </div>
-    <a href="../production/HDA/REST/HDA-REST-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Using HDA to Find and Download Data for Urban Area Monitoring Using Sentinel-1 Data</strong><br>
-    In this notebook, we will present a simple example of how you can access data from DEDL using HDA and what you can do with it. We will demonstrate how to utilize thresholding techniques and compare the values of VV and VH polarizations to analyze urban areas. As an illustration, we will attempt to download Sentinel-1 images containing data of the urban area of Warsaw (Poland).
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Authentication</span><span class="tag">Access Token</span>
-    </div>
-    <a href="../production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-1.L1_GRD.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/REST/HDA-REST-API-key.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -169,30 +169,43 @@
     <a href="../production/HDA/REST/HDA-REST-Queryables.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC HTTP requests" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>EODAG - DestinE Data Lake Provider</strong><br>
-    This notebook demonstrates how to use the DEDL provider in EODAG.
+    <strong>HDA Tutorial - Quick start</strong><br>
+    This notebook demonstrates how to use the HDA (Harmonized Data Access) API by sending a few HTTP requests to the API, using Python code.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">EODAG</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span>
     </div>
-    <a href="../production/HDA/EODAG/HDA-EODAG-full-version.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/REST/HDA-REST-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>EODAG - A quick start with DEDL</strong><br>
-    This notebook provides a quickstart guide for using the EODAG Python API and CLI to search, discover, and download DEDL data.
+    <strong>Using HDA to Find and Download Data for Urban Area Monitoring Using Sentinel-1 Data</strong><br>
+    In this notebook, we will present a simple example of how you can access data from DEDL using HDA and what you can do with it. We will demonstrate how to utilize thresholding techniques and compare the values of VV and VH polarizations to analyze urban areas. As an illustration, we will attempt to download Sentinel-1 images containing data of the urban area of Warsaw (Poland).
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">EODAG</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Authentication</span><span class="tag">Access Token</span>
     </div>
-    <a href="../production/HDA/EODAG/HDA-EODAG-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-1.L1_GRD.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA ECMWF pyaviso Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Aviso notification for DT data availability</strong><br>
+    This notebook shows how to check the data availablility for the Weather-Induced Extremes Digital Twin (Extremes DT) using the ECMWF Aviso package.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">pyaviso</span><span class="tag">Digital Twin</span>
+    </div>
+    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF Authentication Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -200,12 +213,12 @@
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Climate DT Parameter - Data Access using DEDL HDA</strong><br>
-    This notebook authenticates with the DestinE API, queries ECMWF Climate Digital Twin adaptation data, downloads the selected data using a  retry mechanism, and visualizes it using EarthKit.
+    <strong>Weather-Induced Extremes DT Parameter - Time Series Plot - Data Access using DEDL HDA</strong><br>
+    This notebook authenticates with the DestinE API, queries ECMWF Extremes Digital Twin forecast data for a date within the last 14 days, downloads it, and visualizes wind gust and sea-level pressure fields using EarthKit.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES-Series.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -226,12 +239,12 @@
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Weather-Induced Extremes DT Parameter Plotter Tutorial</strong><br>
-    This notebook shows how to select, request, and download Digital Twin for Weather-Induced Extremes data from the DestinE Data Lake (DEDL HDA), including user-defined parameter, date, and level selection, followed by secure authentication, API querying, and visualization using EarthKit.
+    <strong>HDA Climate DT Parameter Plotter - Tutorial</strong><br>
+    This notebook provides an interactive workflow to select, query, download, and visualize Climate Digital Twin parameters from the DestinE Data Lake using the DEDL HDA API.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -239,12 +252,12 @@
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>HDA Climate DT Parameter Plotter - Tutorial</strong><br>
-    This notebook provides an interactive workflow to select, query, download, and visualize Climate Digital Twin parameters from the DestinE Data Lake using the DEDL HDA API.
+    <strong>Weather-Induced Extremes DT Parameter Plotter Tutorial</strong><br>
+    This notebook shows how to select, request, and download Digital Twin for Weather-Induced Extremes data from the DestinE Data Lake (DEDL HDA), including user-defined parameter, date, and level selection, followed by secure authentication, API querying, and visualization using EarthKit.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF Digital Twin Time Series" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -265,25 +278,12 @@
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Weather-Induced Extremes DT Parameter - Time Series Plot - Data Access using DEDL HDA</strong><br>
-    This notebook authenticates with the DestinE API, queries ECMWF Extremes Digital Twin forecast data for a date within the last 14 days, downloads it, and visualizes wind gust and sea-level pressure fields using EarthKit.
+    <strong>Climate DT Parameter - Data Access using DEDL HDA</strong><br>
+    This notebook authenticates with the DestinE API, queries ECMWF Climate Digital Twin adaptation data, downloads the selected data using a  retry mechanism, and visualizes it using EarthKit.
     <div style="margin: 6px 0;">
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES-Series.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA ECMWF pyaviso Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Aviso notification for DT data availability</strong><br>
-    This notebook shows how to check the data availablility for the Weather-Induced Extremes Digital Twin (Extremes DT) using the ECMWF Aviso package.
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">pyaviso</span><span class="tag">Digital Twin</span>
-    </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF Authentication Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">

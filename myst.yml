@@ -37,6 +37,25 @@ project:
       hidden: true
     - file: production/HOOK/Tutorial.ipynb
       hidden: true
+  - title: DEFAIR
+    file: galleries/DEFAIR.md
+    children:
+    - file: production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_FireIgnition_lightning_with_machine_learning.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_Reading_geostationary_products.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_geo_leo_collocation.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb
+      hidden: true
+    - file: production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb
+      hidden: true
   - title: HDA
     file: galleries/HDA.md
     children:
@@ -90,6 +109,10 @@ project:
       hidden: true
   - file: galleries_by_tag/tag-access-token.md
     hidden: true
+  - file: galleries_by_tag/tag-ai-ready-data-generation.md
+    hidden: true
+  - file: galleries_by_tag/tag-ai-ready-data.md
+    hidden: true
   - file: galleries_by_tag/tag-api-key.md
     hidden: true
   - file: galleries_by_tag/tag-authentication.md
@@ -97,6 +120,8 @@ project:
   - file: galleries_by_tag/tag-avhrr.md
     hidden: true
   - file: galleries_by_tag/tag-c3s.md
+    hidden: true
+  - file: galleries_by_tag/tag-clc+.md
     hidden: true
   - file: galleries_by_tag/tag-cluster.md
     hidden: true
@@ -112,7 +137,11 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-dask.md
     hidden: true
+  - file: galleries_by_tag/tag-data-cube.md
+    hidden: true
   - file: galleries_by_tag/tag-deep-learning.md
+    hidden: true
+  - file: galleries_by_tag/tag-defair.md
     hidden: true
   - file: galleries_by_tag/tag-destinelab.md
     hidden: true
@@ -122,13 +151,25 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-ecmwf.md
     hidden: true
+  - file: galleries_by_tag/tag-edlst.md
+    hidden: true
   - file: galleries_by_tag/tag-eodag.md
     hidden: true
   - file: galleries_by_tag/tag-era5.md
     hidden: true
+  - file: galleries_by_tag/tag-eumetsat.md
+    hidden: true
+  - file: galleries_by_tag/tag-fci-gii.md
+    hidden: true
+  - file: galleries_by_tag/tag-fci-l1c.md
+    hidden: true
   - file: galleries_by_tag/tag-gfm.md
     hidden: true
+  - file: galleries_by_tag/tag-gii.md
+    hidden: true
   - file: galleries_by_tag/tag-gpu.md
+    hidden: true
+  - file: galleries_by_tag/tag-h-saf.md
     hidden: true
   - file: galleries_by_tag/tag-hda.md
     hidden: true
@@ -136,13 +177,31 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-http-requests.md
     hidden: true
+  - file: galleries_by_tag/tag-iasi.md
+    hidden: true
+  - file: galleries_by_tag/tag-li-af.md
+    hidden: true
+  - file: galleries_by_tag/tag-li-lfl.md
+    hidden: true
   - file: galleries_by_tag/tag-li.md
     hidden: true
   - file: galleries_by_tag/tag-lightning.md
     hidden: true
+  - file: galleries_by_tag/tag-lsa-saf.md
+    hidden: true
   - file: galleries_by_tag/tag-machine-learning.md
     hidden: true
+  - file: galleries_by_tag/tag-metop-avhrr.md
+    hidden: true
   - file: galleries_by_tag/tag-metop.md
+    hidden: true
+  - file: galleries_by_tag/tag-msg-seviri.md
+    hidden: true
+  - file: galleries_by_tag/tag-msg.md
+    hidden: true
+  - file: galleries_by_tag/tag-mtg-fci.md
+    hidden: true
+  - file: galleries_by_tag/tag-mtg-lightning-imager.md
     hidden: true
   - file: galleries_by_tag/tag-mtg.md
     hidden: true
@@ -164,6 +223,8 @@ project:
     hidden: true
   - file: galleries_by_tag/tag-sentinel-2.md
     hidden: true
+  - file: galleries_by_tag/tag-sentinel-3-slstr.md
+    hidden: true
   - file: galleries_by_tag/tag-sentinel-3.md
     hidden: true
   - file: galleries_by_tag/tag-seviri.md
@@ -183,6 +244,8 @@ project:
   - file: galleries_by_tag/tag-workflow.md
     hidden: true
   - file: galleries_by_tag/tag-xgboost.md
+    hidden: true
+  - file: galleries_by_tag/tag-zarr.md
     hidden: true
   baseurl: /DestinE-DataLake-Staging-Gallery
 site:

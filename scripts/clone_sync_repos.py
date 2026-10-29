@@ -16,7 +16,7 @@ BASE_CLONE_DIR = "cookbook-gallery"
 PRODUCTION_DIR = "production"
 CENTRAL_IMG = "img"
 
-BASE_SUBFOLDERS = ["HDA", "HOOK", "STACK"]
+BASE_SUBFOLDERS = ["HDA", "HOOK", "STACK", "DEFAIR"]
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, os.pardir))

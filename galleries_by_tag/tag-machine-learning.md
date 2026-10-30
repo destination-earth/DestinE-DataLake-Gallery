@@ -105,12 +105,12 @@
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>FireIgnition: Lightning and New Fires with DEFAIR and Machine Learning</strong><br>
-    A Destination Earth / DEFAIR use case: from lightning, fuel, rain and fire products to an AI ready cube and a model of lightning ignition over the Iberian Peninsula
+    <strong>FireIgnition: custom DEFAIR readers, lightning and new fires</strong><br>
+    A Destination Earth / DEFAIR use case: three new readers for LSA SAF and H SAF products, and a study of lightning ignition over the Iberian Peninsula from an AI ready cube
     <div style="margin: 6px 0;">
       <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">Machine Learning</span>
     </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_FireIgnition_lightning_with_machine_learning.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

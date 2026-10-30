@@ -87,19 +87,6 @@
     <a href="../production/DEFAIR/DEDL_DEFAIR_geo_leo_collocation.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ Machine Learning" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>FireIgnition: Lightning and New Fires with DEFAIR and Machine Learning</strong><br>
-    A Destination Earth / DEFAIR use case: from lightning, fuel, rain and fire products to an AI ready cube and a model of lightning ignition over the Iberian Peninsula
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">Machine Learning</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_FireIgnition_lightning_with_machine_learning.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -139,6 +126,19 @@
     <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
+<div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ Machine Learning" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>FireIgnition: custom DEFAIR readers, lightning and new fires</strong><br>
+    A Destination Earth / DEFAIR use case: three new readers for LSA SAF and H SAF products, and a study of lightning ignition over the Iberian Peninsula from an AI ready cube
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">Machine Learning</span>
+    </div>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
 <div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -176,6 +176,19 @@
       <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">zarr</span><span class="tag">AI-Ready-data</span>
     </div>
     <a href="../production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>FireIgnition: building the AI ready cube with DEFAIR</strong><br>
+    A Destination Earth / DEFAIR use case: from six lightning, fuel, rain, air, fire and land cover products to one cube on a 10 km grid over the Iberian Peninsula
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">data cube</span>
+    </div>
+    <a href="../production/DEFAIR/notebooks_support/DEDL_DEFAIR_Fire_ignition_cube_preparation.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

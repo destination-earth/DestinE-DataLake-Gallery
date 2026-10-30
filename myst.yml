@@ -42,7 +42,7 @@ project:
     children:
     - file: production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb
       hidden: true
-    - file: production/DEFAIR/DEDL_DEFAIR_FireIgnition_lightning_with_machine_learning.ipynb
+    - file: production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb
       hidden: true
     - file: production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb
       hidden: true
@@ -55,6 +55,8 @@ project:
     - file: production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb
       hidden: true
     - file: production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb
+      hidden: true
+    - file: production/DEFAIR/notebooks_support/DEDL_DEFAIR_Fire_ignition_cube_preparation.ipynb
       hidden: true
   - title: HDA
     file: galleries/HDA.md

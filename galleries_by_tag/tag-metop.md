@@ -74,17 +74,17 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="DEFAIR MSG SEVIRI Metop EDLST MTG GII IASI data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA Metop AVHRR satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Building a Heterogeneous AI-Ready Data Cube with DEFAIR</strong><br>
-    Four EUMETSAT sources, four geometries, one aligned cube : MSG SEVIRI × Metop EDLST × MTG GII × Metop IASI.
+    <strong>AVHRR Level 1B Metop Global - Data Access</strong><br>
+    This notebook demonstrates how to search and access Metop data using HDA and how to read, process and visualize it using satpy.
     <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">MSG</span><span class="tag">SEVIRI</span><span class="tag">Metop</span><span class="tag">EDLST</span><span class="tag">MTG</span><span class="tag">GII</span><span class="tag">IASI</span><span class="tag">data cube</span>
+      <span class="tag">HDA</span><span class="tag">Metop</span><span class="tag">AVHRR</span><span class="tag">satpy</span>
     </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="DEFAIR EUMETSAT Metop Sentinel-3" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -100,17 +100,17 @@
     <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA Metop AVHRR satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="DEFAIR MSG SEVIRI Metop EDLST MTG GII IASI data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>AVHRR Level 1B Metop Global - Data Access</strong><br>
-    This notebook demonstrates how to search and access Metop data using HDA and how to read, process and visualize it using satpy.
+    <strong>Building a Heterogeneous AI-Ready Data Cube with DEFAIR</strong><br>
+    Four EUMETSAT sources, four geometries, one aligned cube : MSG SEVIRI × Metop EDLST × MTG GII × Metop IASI.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">Metop</span><span class="tag">AVHRR</span><span class="tag">satpy</span>
+      <span class="tag">DEFAIR</span><span class="tag">MSG</span><span class="tag">SEVIRI</span><span class="tag">Metop</span><span class="tag">EDLST</span><span class="tag">MTG</span><span class="tag">GII</span><span class="tag">IASI</span><span class="tag">data cube</span>
     </div>
-    <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

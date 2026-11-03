@@ -37,51 +37,14 @@ project:
       hidden: true
     - file: production/HOOK/Tutorial.ipynb
       hidden: true
-  - title: DEFAIR
-    file: galleries/DEFAIR.md
-    children:
-    - file: production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb
-      hidden: true
-    - file: production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb
-      hidden: true
-    - file: production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb
-      hidden: true
-    - file: production/DEFAIR/DEDL_DEFAIR_Reading_geostationary_products.ipynb
-      hidden: true
-    - file: production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb
-      hidden: true
-    - file: production/DEFAIR/DEDL_DEFAIR_geo_leo_collocation.ipynb
-      hidden: true
-    - file: production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb
-      hidden: true
-    - file: production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb
-      hidden: true
-    - file: production/DEFAIR/notebooks_support/DEDL_DEFAIR_Fire_ignition_cube_preparation.ipynb
-      hidden: true
   - title: HDA
     file: galleries/HDA.md
     children:
-    - file: production/HDA/EODAG/HDA-EODAG-full-version.ipynb
-      hidden: true
-    - file: production/HDA/EODAG/HDA-EODAG-quick-start.ipynb
-      hidden: true
     - file: production/HDA/PySTAC/HDA-PyStac-Client.ipynb
       hidden: true
     - file: production/HDA/PySTAC/Data-Discovery/HDA-Dataset-Discovery-STAC-API-Filter-Extension.ipynb
       hidden: true
     - file: production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb
-      hidden: true
-    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-1.L1_GRD.ipynb
-      hidden: true
-    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-API-key.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-Queryables.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-full-version.ipynb
-      hidden: true
-    - file: production/HDA/REST/HDA-REST-quick-start.ipynb
       hidden: true
     - file: production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb
       hidden: true
@@ -108,6 +71,43 @@ project:
     - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MTG.ipynb
       hidden: true
     - file: production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.SENTINEL-3.OL_1_ERR___.ipynb
+      hidden: true
+    - file: production/HDA/EODAG/HDA-EODAG-full-version.ipynb
+      hidden: true
+    - file: production/HDA/EODAG/HDA-EODAG-quick-start.ipynb
+      hidden: true
+    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-1.L1_GRD.ipynb
+      hidden: true
+    - file: production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-API-key.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-Queryables.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-full-version.ipynb
+      hidden: true
+    - file: production/HDA/REST/HDA-REST-quick-start.ipynb
+      hidden: true
+  - title: DEFAIR
+    file: galleries/DEFAIR.md
+    children:
+    - file: production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_Reading_geostationary_products.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_geo_leo_collocation.ipynb
+      hidden: true
+    - file: production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb
+      hidden: true
+    - file: production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb
+      hidden: true
+    - file: production/DEFAIR/notebooks_support/DEDL_DEFAIR_Fire_ignition_cube_preparation.ipynb
       hidden: true
   - file: galleries_by_tag/tag-access-token.md
     hidden: true

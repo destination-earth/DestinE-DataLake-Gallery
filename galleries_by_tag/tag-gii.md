@@ -87,19 +87,6 @@
     <a href="../production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="DEFAIR MSG SEVIRI Metop EDLST MTG GII IASI data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Building a Heterogeneous AI-Ready Data Cube with DEFAIR</strong><br>
-    Four EUMETSAT sources, four geometries, one aligned cube : MSG SEVIRI × Metop EDLST × MTG GII × Metop IASI.
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">MSG</span><span class="tag">SEVIRI</span><span class="tag">Metop</span><span class="tag">EDLST</span><span class="tag">MTG</span><span class="tag">GII</span><span class="tag">IASI</span><span class="tag">data cube</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -111,6 +98,19 @@
       <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
     </div>
     <a href="../production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR MSG SEVIRI Metop EDLST MTG GII IASI data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Building a Heterogeneous AI-Ready Data Cube with DEFAIR</strong><br>
+    Four EUMETSAT sources, four geometries, one aligned cube : MSG SEVIRI × Metop EDLST × MTG GII × Metop IASI.
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">MSG</span><span class="tag">SEVIRI</span><span class="tag">Metop</span><span class="tag">EDLST</span><span class="tag">MTG</span><span class="tag">GII</span><span class="tag">IASI</span><span class="tag">data cube</span>
+    </div>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>

@@ -74,6 +74,19 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
+<div class="notebook-card" data-tags="DEFAIR EUMETSAT MSG SEVIRI MTG FCI MTG Lightning Imager" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Reading geostationary products: MSG SEVIRI, MTG FCI and the Lightning Imager with DEFAIR</strong><br>
+    This tutorial shows how to read three of the families of geostationary satellite products MSG SEVIRI, using DEFAIR
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">MSG SEVIRI</span><span class="tag">MTG FCI</span><span class="tag">MTG Lightning Imager</span>
+    </div>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_geostationary_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
 <div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -85,19 +98,6 @@
       <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
     </div>
     <a href="../production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="DEFAIR EUMETSAT zarr AI-Ready-data" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>DEDL_DEFAIR_quick_start</strong><br>
-    This notebook shows how to start working with DEFAIR (Destination Earth Framework for preparing AI-Ready Data)
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">zarr</span><span class="tag">AI-Ready-data</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ Machine Learning" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -113,19 +113,6 @@
     <a href="../production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>LightningCast: Satellite Based Lightning Nowcasting with DEFAIR</strong><br>
-    A Destination Earth / DEFAIR use case : A Deep-Learning Model adaptation for Satellite-Based Lightning Nowcasting
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="DEFAIR EUMETSAT Metop Sentinel-3" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -139,32 +126,6 @@
     <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_polar_orbiter_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="DEFAIR EUMETSAT MSG SEVIRI Metop AVHRR Sentinel-3 SLSTR AI Ready Data Generation" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Collocating Geostationary and Polar-Orbiting Satellite Observations</strong><br>
-    This notebook demonstrates how to collocate observations from geostationary and polar-orbiting satellites using DEFAIR tools.
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">MSG SEVIRI</span><span class="tag">Metop AVHRR</span><span class="tag">Sentinel-3 SLSTR</span><span class="tag">AI Ready Data Generation</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_geo_leo_collocation.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="DEFAIR EUMETSAT MSG SEVIRI MTG FCI MTG Lightning Imager" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Reading geostationary products: MSG SEVIRI, MTG FCI and the Lightning Imager with DEFAIR</strong><br>
-    This tutorial shows how to read three of the families of geostationary satellite products MSG SEVIRI, using DEFAIR
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">MSG SEVIRI</span><span class="tag">MTG FCI</span><span class="tag">MTG Lightning Imager</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Reading_geostationary_products.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="DEFAIR MSG SEVIRI Metop EDLST MTG GII IASI data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -176,6 +137,45 @@
       <span class="tag">DEFAIR</span><span class="tag">MSG</span><span class="tag">SEVIRI</span><span class="tag">Metop</span><span class="tag">EDLST</span><span class="tag">MTG</span><span class="tag">GII</span><span class="tag">IASI</span><span class="tag">data cube</span>
     </div>
     <a href="../production/DEFAIR/DEDL_DEFAIR_Building_heterogeneous_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>LightningCast: Satellite Based Lightning Nowcasting with DEFAIR</strong><br>
+    A Destination Earth / DEFAIR use case : A Deep-Learning Model adaptation for Satellite-Based Lightning Nowcasting
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
+    </div>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR EUMETSAT zarr AI-Ready-data" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>DEDL_DEFAIR_quick_start</strong><br>
+    This notebook shows how to start working with DEFAIR (Destination Earth Framework for preparing AI-Ready Data)
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">zarr</span><span class="tag">AI-Ready-data</span>
+    </div>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_quick_start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR EUMETSAT MSG SEVIRI Metop AVHRR Sentinel-3 SLSTR AI Ready Data Generation" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT_TEST.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Collocating Geostationary and Polar-Orbiting Satellite Observations</strong><br>
+    This notebook demonstrates how to collocate observations from geostationary and polar-orbiting satellites using DEFAIR tools.
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">EUMETSAT</span><span class="tag">MSG SEVIRI</span><span class="tag">Metop AVHRR</span><span class="tag">Sentinel-3 SLSTR</span><span class="tag">AI Ready Data Generation</span>
+    </div>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_geo_leo_collocation.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">

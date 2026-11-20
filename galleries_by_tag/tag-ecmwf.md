@@ -3,10 +3,13 @@
 ### Filter Notebooks by Tags
 
 {button}`Access Token </galleries_by_tag/tag-access-token.md>`
+{button}`AI Ready Data Generation </galleries_by_tag/tag-ai-ready-data-generation.md>`
+{button}`AI-Ready-data </galleries_by_tag/tag-ai-ready-data.md>`
 {button}`API-key </galleries_by_tag/tag-api-key.md>`
 {button}`Authentication </galleries_by_tag/tag-authentication.md>`
 {button}`AVHRR </galleries_by_tag/tag-avhrr.md>`
 {button}`C3S </galleries_by_tag/tag-c3s.md>`
+{button}`CLC+ </galleries_by_tag/tag-clc+.md>`
 {button}`Cluster </galleries_by_tag/tag-cluster.md>`
 {button}`Core API </galleries_by_tag/tag-core-api.md>`
 {button}`CQL2 </galleries_by_tag/tag-cql2.md>`
@@ -14,23 +17,40 @@
 {button}`cuDF </galleries_by_tag/tag-cudf.md>`
 {button}`cuML </galleries_by_tag/tag-cuml.md>`
 {button}`Dask </galleries_by_tag/tag-dask.md>`
+{button}`data cube </galleries_by_tag/tag-data-cube.md>`
 {button}`Deep Learning </galleries_by_tag/tag-deep-learning.md>`
+{button}`DEFAIR </galleries_by_tag/tag-defair.md>`
 {button}`DestineLab </galleries_by_tag/tag-destinelab.md>`
 {button}`Digital Twin </galleries_by_tag/tag-digital-twin.md>`
 {button}`earthkit </galleries_by_tag/tag-earthkit.md>`
 {button}`ECMWF </galleries_by_tag/tag-ecmwf.md>`
+{button}`EDLST </galleries_by_tag/tag-edlst.md>`
 {button}`EODAG </galleries_by_tag/tag-eodag.md>`
 {button}`ERA5 </galleries_by_tag/tag-era5.md>`
+{button}`EUMETSAT </galleries_by_tag/tag-eumetsat.md>`
+{button}`FCI GII </galleries_by_tag/tag-fci-gii.md>`
+{button}`FCI L1C </galleries_by_tag/tag-fci-l1c.md>`
 {button}`GFM </galleries_by_tag/tag-gfm.md>`
+{button}`GII </galleries_by_tag/tag-gii.md>`
 {button}`GPU </galleries_by_tag/tag-gpu.md>`
+{button}`H SAF </galleries_by_tag/tag-h-saf.md>`
 {button}`HDA </galleries_by_tag/tag-hda.md>`
 {button}`Hook </galleries_by_tag/tag-hook.md>`
 {button}`HTTP requests </galleries_by_tag/tag-http-requests.md>`
+{button}`IASI </galleries_by_tag/tag-iasi.md>`
 {button}`LI </galleries_by_tag/tag-li.md>`
+{button}`LI AF </galleries_by_tag/tag-li-af.md>`
+{button}`LI LFL </galleries_by_tag/tag-li-lfl.md>`
 {button}`Lightning </galleries_by_tag/tag-lightning.md>`
+{button}`LSA SAF </galleries_by_tag/tag-lsa-saf.md>`
 {button}`Machine Learning </galleries_by_tag/tag-machine-learning.md>`
 {button}`Metop </galleries_by_tag/tag-metop.md>`
+{button}`Metop AVHRR </galleries_by_tag/tag-metop-avhrr.md>`
+{button}`MSG </galleries_by_tag/tag-msg.md>`
+{button}`MSG SEVIRI </galleries_by_tag/tag-msg-seviri.md>`
 {button}`MTG </galleries_by_tag/tag-mtg.md>`
+{button}`MTG FCI </galleries_by_tag/tag-mtg-fci.md>`
+{button}`MTG Lightning Imager </galleries_by_tag/tag-mtg-lightning-imager.md>`
 {button}`OLCI </galleries_by_tag/tag-olci.md>`
 {button}`pyaviso </galleries_by_tag/tag-pyaviso.md>`
 {button}`PyTorch </galleries_by_tag/tag-pytorch.md>`
@@ -41,6 +61,7 @@
 {button}`scikit-learn </galleries_by_tag/tag-scikit-learn.md>`
 {button}`Sentinel-2 </galleries_by_tag/tag-sentinel-2.md>`
 {button}`Sentinel-3 </galleries_by_tag/tag-sentinel-3.md>`
+{button}`Sentinel-3 SLSTR </galleries_by_tag/tag-sentinel-3-slstr.md>`
 {button}`SEVIRI </galleries_by_tag/tag-seviri.md>`
 {button}`STAC </galleries_by_tag/tag-stac.md>`
 {button}`STACK </galleries_by_tag/tag-stack.md>`
@@ -50,6 +71,7 @@
 {button}`Token </galleries_by_tag/tag-token.md>`
 {button}`Workflow </galleries_by_tag/tag-workflow.md>`
 {button}`XGBoost </galleries_by_tag/tag-xgboost.md>`
+{button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
 <div class="notebook-card" data-tags="HDA STAC ECMWF ERA5" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -65,6 +87,19 @@
     <a href="../production/HDA/CDS_data/DEDL-HDA-EO.ECMWF.DAT.REANALYSIS_ERA5_SINGLE_LEVELS.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
+<div class="notebook-card" data-tags="HDA ECMWF Authentication Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Climate DT Parameter - Data Access using DEDL HDA</strong><br>
+    This notebook authenticates with the DestinE API, queries ECMWF Climate Digital Twin adaptation data, downloads the selected data using a  retry mechanism, and visualizes it using EarthKit.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
+    </div>
+    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
 <div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin ROI" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -78,17 +113,17 @@
     <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF Digital Twin Time Series" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>HDA Climate DT Parameter Plotter - Tutorial</strong><br>
-    This notebook provides an interactive workflow to select, query, download, and visualize Climate Digital Twin parameters from the DestinE Data Lake using the DEDL HDA API.
+    <strong>HDA Extract Location Values - Tutorial</strong><br>
+    This notebook demonstrates how to extract time series data for specific locations from the Destination Earth Climate Digital Twin (DT) using HDA.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span><span class="tag">Time Series</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF Authentication Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -117,30 +152,30 @@
     <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE-Series.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF Authentication Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF pyaviso Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Climate DT Parameter - Data Access using DEDL HDA</strong><br>
-    This notebook authenticates with the DestinE API, queries ECMWF Climate Digital Twin adaptation data, downloads the selected data using a  retry mechanism, and visualizes it using EarthKit.
+    <strong>Aviso notification for DT data availability</strong><br>
+    This notebook shows how to check the data availablility for the Weather-Induced Extremes Digital Twin (Extremes DT) using the ECMWF Aviso package.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">pyaviso</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF Digital Twin Time Series" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>HDA Extract Location Values - Tutorial</strong><br>
-    This notebook demonstrates how to extract time series data for specific locations from the Destination Earth Climate Digital Twin (DT) using HDA.
+    <strong>HDA Climate DT Parameter Plotter - Tutorial</strong><br>
+    This notebook provides an interactive workflow to select, query, download, and visualize Climate Digital Twin parameters from the DestinE Data Lake using the DEDL HDA API.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span><span class="tag">Time Series</span>
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -154,19 +189,6 @@
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span>
     </div>
     <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA ECMWF pyaviso Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Aviso notification for DT data availability</strong><br>
-    This notebook shows how to check the data availablility for the Weather-Induced Extremes Digital Twin (Extremes DT) using the ECMWF Aviso package.
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">pyaviso</span><span class="tag">Digital Twin</span>
-    </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">

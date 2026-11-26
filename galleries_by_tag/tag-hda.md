@@ -74,84 +74,6 @@
 {button}`zarr </galleries_by_tag/tag-zarr.md>`
 
 <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px;">
-<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>LightningCast: Satellite Based Lightning Nowcasting with DEFAIR</strong><br>
-    A Destination Earth / DEFAIR use case : A Deep-Learning Model adaptation for Satellite-Based Lightning Nowcasting
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>LightningCast: Building the AI Ready Data Cube with DEFAIR</strong><br>
-    A Destination Earth / DEFAIR use case : From raw MTG products to the AI ready campaign cube
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
-    </div>
-    <a href="../production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ Machine Learning" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>FireIgnition: custom DEFAIR readers, lightning and new fires</strong><br>
-    A Destination Earth / DEFAIR use case: three new readers for LSA SAF and H SAF products, and a study of lightning ignition over the Iberian Peninsula from an AI ready cube
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">Machine Learning</span>
-    </div>
-    <a href="../production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>FireIgnition: building the AI ready cube with DEFAIR</strong><br>
-    A Destination Earth / DEFAIR use case: from six lightning, fuel, rain, air, fire and land cover products to one cube on a 10 km grid over the Iberian Peninsula
-    <div style="margin: 6px 0;">
-      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">data cube</span>
-    </div>
-    <a href="../production/DEFAIR/notebooks_support/DEDL_DEFAIR_Fire_ignition_cube_preparation.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/STAC-01.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>HDA PySTAC-Client Introduction</strong><br>
-    This notebook shows the basic use of DestinE Data Lake Harmonised Data Access using pystac-client.
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Authentication</span><span class="tag">Access Token</span>
-    </div>
-    <a href="../production/HDA/PySTAC/HDA-PyStac-Client.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA STAC CQL2" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/STAC-01.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Filtering datasets with the STAC API Filter extension (CQL2)</strong><br>
-    This notebook shows how to use CQL2 filters, defined by the STAC API Filter extension, to find datasets in the DestinE Data Lake (HDA). 
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">CQL2</span>
-    </div>
-    <a href="../production/HDA/PySTAC/Data-Discovery/HDA-Dataset-Discovery-STAC-API-Filter-Extension.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="HDA STAC ECMWF ERA5" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -178,19 +100,6 @@
     <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.SENTINEL-3.OL_1_ERR___.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA Metop AVHRR satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>AVHRR Level 1B Metop Global - Data Access</strong><br>
-    This notebook demonstrates how to search and access Metop data using HDA and how to read, process and visualize it using satpy.
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">Metop</span><span class="tag">AVHRR</span><span class="tag">satpy</span>
-    </div>
-    <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="HDA MTG LI Lightning" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -202,6 +111,19 @@
       <span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI</span><span class="tag">Lightning</span>
     </div>
     <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MTG.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA Metop AVHRR satpy" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>AVHRR Level 1B Metop Global - Data Access</strong><br>
+    This notebook demonstrates how to search and access Metop data using HDA and how to read, process and visualize it using satpy.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">Metop</span><span class="tag">AVHRR</span><span class="tag">satpy</span>
+    </div>
+    <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.METOP.AVHRRL1.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA SEVIRI" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -217,19 +139,6 @@
     <a href="../production/HDA/EUM_data/DEDL-HDA-EO.EUM.DAT.MSG-1.5.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin ROI" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>ClimateDT-ROISelectionandDataAnalysis</strong><br>
-    This notebook shows how to request, access and work with Climate DT data selecting a region of interest via HDA
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span><span class="tag">ROI</span>
-    </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -243,6 +152,19 @@
     <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
+<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Weather-Induced Extremes DT Parameter Plotter Tutorial</strong><br>
+    This notebook shows how to select, request, and download Digital Twin for Weather-Induced Extremes data from the DestinE Data Lake (DEDL HDA), including user-defined parameter, date, and level selection, followed by secure authentication, API querying, and visualization using EarthKit.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
+    </div>
+    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
 <div class="notebook-card" data-tags="HDA ECMWF Authentication Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -254,6 +176,58 @@
       <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Authentication</span><span class="tag">Digital Twin</span>
     </div>
     <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES-Series.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA ECMWF Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Weather-Induced Extremes - Data Access using DEDL HDA</strong><br>
+    This notebook demonstrates how to access and download sea ice coverage data from the Weather-Induced Extremes Digital Twin using the DestinE Data Lake Harmonised Data Access (DEDL HDA) API, including authentication, filtering, polling, and visualizing the result on a map.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span>
+    </div>
+    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin ROI" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>ClimateDT-ROISelectionandDataAnalysis</strong><br>
+    This notebook shows how to request, access and work with Climate DT data selecting a region of interest via HDA
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span><span class="tag">ROI</span>
+    </div>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ROISelectionandDataAnalysis.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA ECMWF pyaviso Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Aviso notification for DT data availability</strong><br>
+    This notebook shows how to check the data availablility for the Weather-Induced Extremes Digital Twin (Extremes DT) using the ECMWF Aviso package.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">pyaviso</span><span class="tag">Digital Twin</span>
+    </div>
+    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA ECMWF Digital Twin Time Series" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>HDA Extract Location Values - Tutorial</strong><br>
+    This notebook demonstrates how to extract time series data for specific locations from the Destination Earth Climate Digital Twin (DT) using HDA.
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span><span class="tag">Time Series</span>
+    </div>
+    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA ECMWF Authentication Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -282,56 +256,69 @@
     <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_CLIMATE.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF Digital Twin Time Series" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/STAC-01.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>HDA Extract Location Values - Tutorial</strong><br>
-    This notebook demonstrates how to extract time series data for specific locations from the Destination Earth Climate Digital Twin (DT) using HDA.
+    <strong>HDA PySTAC-Client Introduction</strong><br>
+    This notebook shows the basic use of DestinE Data Lake Harmonised Data Access using pystac-client.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span><span class="tag">Time Series</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Authentication</span><span class="tag">Access Token</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ClimateDT-ExtractLocationValues.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/PySTAC/HDA-PyStac-Client.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA STAC CQL2" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/STAC-01.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Weather-Induced Extremes - Data Access using DEDL HDA</strong><br>
-    This notebook demonstrates how to access and download sea ice coverage data from the Weather-Induced Extremes Digital Twin using the DestinE Data Lake Harmonised Data Access (DEDL HDA) API, including authentication, filtering, polling, and visualizing the result on a map.
+    <strong>Filtering datasets with the STAC API Filter extension (CQL2)</strong><br>
+    This notebook shows how to use CQL2 filters, defined by the STAC API Filter extension, to find datasets in the DestinE Data Lake (HDA). 
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">Digital Twin</span>
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">CQL2</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/DEDL-HDA-EO.ECMWF.DAT.DT_EXTREMES.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/PySTAC/Data-Discovery/HDA-Dataset-Discovery-STAC-API-Filter-Extension.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF pyaviso Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Aviso notification for DT data availability</strong><br>
-    This notebook shows how to check the data availablility for the Weather-Induced Extremes Digital Twin (Extremes DT) using the ECMWF Aviso package.
+    <strong>EODAG - A quick start with DEDL</strong><br>
+    This notebook provides a quickstart guide for using the EODAG Python API and CLI to search, discover, and download DEDL data.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">pyaviso</span><span class="tag">Digital Twin</span>
+      <span class="tag">HDA</span><span class="tag">EODAG</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-dataAvailability.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/EODAG/HDA-EODAG-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA ECMWF earthkit Digital Twin" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/ECMWF.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Weather-Induced Extremes DT Parameter Plotter Tutorial</strong><br>
-    This notebook shows how to select, request, and download Digital Twin for Weather-Induced Extremes data from the DestinE Data Lake (DEDL HDA), including user-defined parameter, date, and level selection, followed by secure authentication, API querying, and visualization using EarthKit.
+    <strong>EODAG - DestinE Data Lake Provider</strong><br>
+    This notebook demonstrates how to use the DEDL provider in EODAG.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">ECMWF</span><span class="tag">earthkit</span><span class="tag">Digital Twin</span>
+      <span class="tag">HDA</span><span class="tag">EODAG</span>
     </div>
-    <a href="../production/HDA/DestinE_Digital_Twins/ExtremeDT-ParameterPlotter.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/EODAG/HDA-EODAG-full-version.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="HDA STAC HTTP requests API-key DestineLab" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Using DEDL API Keys for Automated Workflows</strong><br>
+    Demonstrating DestinE Data Lake API Keys usage for accessing data via HDA
+    <div style="margin: 6px 0;">
+      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span><span class="tag">API-key</span><span class="tag">DestineLab</span>
+    </div>
+    <a href="../production/HDA/REST/HDA-REST-API-key.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -360,19 +347,6 @@
     <a href="../production/HDA/REST/HDA-REST-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA STAC HTTP requests API-key DestineLab" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Using DEDL API Keys for Automated Workflows</strong><br>
-    Demonstrating DestinE Data Lake API Keys usage for accessing data via HDA
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">HTTP requests</span><span class="tag">API-key</span><span class="tag">DestineLab</span>
-    </div>
-    <a href="../production/HDA/REST/HDA-REST-API-key.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
 <div class="notebook-card" data-tags="HDA STAC Authentication Access Token" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
     <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
@@ -384,19 +358,6 @@
       <span class="tag">HDA</span><span class="tag">STAC</span><span class="tag">Authentication</span><span class="tag">Access Token</span>
     </div>
     <a href="../production/HDA/REST/DEDL-HDA-EO.ESA.DAT.SENTINEL-2.MSI.L2A.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
-  </div>
-</div>
-<div class="notebook-card" data-tags="HDA C3S Digital Twin Authentication Queryables" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
-  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>HDA Tutorial - Queryables</strong><br>
-    This notebook demonstrates how to use the queryables API to filter C3S and DestinE digital twin collections by leveraging variable terms that dynamically adjust based on user selections.
-    <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">C3S</span><span class="tag">Digital Twin</span><span class="tag">Authentication</span><span class="tag">Queryables</span>
-    </div>
-    <a href="../production/HDA/REST/HDA-REST-Queryables.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 <div class="notebook-card" data-tags="HDA STAC Core API" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
@@ -412,30 +373,69 @@
     <a href="../production/HDA/REST/HDA-REST-full-version.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="HDA C3S Digital Twin Authentication Queryables" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/hda.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>EODAG - A quick start with DEDL</strong><br>
-    This notebook provides a quickstart guide for using the EODAG Python API and CLI to search, discover, and download DEDL data.
+    <strong>HDA Tutorial - Queryables</strong><br>
+    This notebook demonstrates how to use the queryables API to filter C3S and DestinE digital twin collections by leveraging variable terms that dynamically adjust based on user selections.
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">EODAG</span>
+      <span class="tag">HDA</span><span class="tag">C3S</span><span class="tag">Digital Twin</span><span class="tag">Authentication</span><span class="tag">Queryables</span>
     </div>
-    <a href="../production/HDA/EODAG/HDA-EODAG-quick-start.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/HDA/REST/HDA-REST-Queryables.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
-<div class="notebook-card" data-tags="HDA EODAG" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+<div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ Machine Learning" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
   <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
-    <img src="../img/eodag_logo_160.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>EODAG - DestinE Data Lake Provider</strong><br>
-    This notebook demonstrates how to use the DEDL provider in EODAG.
+    <strong>FireIgnition: custom DEFAIR readers, lightning and new fires</strong><br>
+    A Destination Earth / DEFAIR use case: three new readers for LSA SAF and H SAF products, and a study of lightning ignition over the Iberian Peninsula from an AI ready cube
     <div style="margin: 6px 0;">
-      <span class="tag">HDA</span><span class="tag">EODAG</span>
+      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">Machine Learning</span>
     </div>
-    <a href="../production/HDA/EODAG/HDA-EODAG-full-version.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Custom_readers_lightning_and_fire.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>LightningCast: Building the AI Ready Data Cube with DEFAIR</strong><br>
+    A Destination Earth / DEFAIR use case : From raw MTG products to the AI ready campaign cube
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
+    </div>
+    <a href="../production/DEFAIR/LightningCast_create_data_cube_using_defair.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR HDA MTG FCI L1C GII LI AF" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>LightningCast: Satellite Based Lightning Nowcasting with DEFAIR</strong><br>
+    A Destination Earth / DEFAIR use case : A Deep-Learning Model adaptation for Satellite-Based Lightning Nowcasting
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">FCI L1C</span><span class="tag">GII</span><span class="tag">LI AF</span>
+    </div>
+    <a href="../production/DEFAIR/DEDL_DEFAIR_Lightning_nowcasting_prediction_with_DL.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
+  </div>
+</div>
+<div class="notebook-card" data-tags="DEFAIR HDA MTG LI LFL FCI GII LSA SAF H SAF CLC+ data cube" style="display: flex; align-items: flex-start; border: 1px solid #cddff1; border-radius: 6px; padding: 14px 20px; background-color: #f9fbfe; box-shadow: 1px 1px 4px #dfeaf5;">
+  <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background-color: #fff; border: 1px solid #e0eaf5; border-radius: 6px; overflow: hidden; margin-right: 32px;">
+    <img src="../img/EUMETSAT-icon.png" alt="Notebook Thumbnail" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>FireIgnition: building the AI ready cube with DEFAIR</strong><br>
+    A Destination Earth / DEFAIR use case: from six lightning, fuel, rain, air, fire and land cover products to one cube on a 10 km grid over the Iberian Peninsula
+    <div style="margin: 6px 0;">
+      <span class="tag">DEFAIR</span><span class="tag">HDA</span><span class="tag">MTG</span><span class="tag">LI LFL</span><span class="tag">FCI GII</span><span class="tag">LSA SAF</span><span class="tag">H SAF</span><span class="tag">CLC+</span><span class="tag">data cube</span>
+    </div>
+    <a href="../production/DEFAIR/notebooks_support/DEDL_DEFAIR_Fire_ignition_cube_preparation.ipynb" style="text-decoration: none; color: #1d70b8; font-weight: bold;">View Notebook</a>
   </div>
 </div>
 </div>
